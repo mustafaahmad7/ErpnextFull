@@ -1,0 +1,18 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _40c40b08333b37b5 -p********** _40c40b08333b37b5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./mustafa.khan/private/backups/20231101_233003-mustafa_khan-database.sql.gz
+
+Backup Summary for mustafa.khan at 2023-11-01 23:30:10.853398
+Config  : ./mustafa.khan/private/backups/20231101_233003-mustafa_khan-site_config_backup.json 182.0B
+Database: ./mustafa.khan/private/backups/20231101_233003-mustafa_khan-database.sql.gz         1.3MiB
+Backup for Site mustafa.khan has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _40c40b08333b37b5 -p********** _40c40b08333b37b5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./mustafa.khan/private/backups/20231103_220004-mustafa_khan-database.sql.gz
+
+Backup Summary for mustafa.khan at 2023-11-03 22:00:15.397144
+Config  : ./mustafa.khan/private/backups/20231103_220004-mustafa_khan-site_config_backup.json 224.0B
+Database: ./mustafa.khan/private/backups/20231103_220004-mustafa_khan-database.sql.gz         1.4MiB
+Backup for Site mustafa.khan has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _40c40b08333b37b5 -p********** _40c40b08333b37b5 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./mustafa.khan/private/backups/20231105_220004-mustafa_khan-database.sql.gz
+
+Backup Summary for mustafa.khan at 2023-11-05 22:00:16.994804
+Config  : ./mustafa.khan/private/backups/20231105_220004-mustafa_khan-site_config_backup.json 224.0B
+Database: ./mustafa.khan/private/backups/20231105_220004-mustafa_khan-database.sql.gz         1.4MiB
+Backup for Site mustafa.khan has been successfully completed

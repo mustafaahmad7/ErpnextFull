@@ -1,0 +1,1084 @@
+2023-11-01 19:43:14,434 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+2023-11-01 19:43:14,436 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+2023-11-01 19:43:14,436 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:18: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+2023-11-01 19:51:22,358 Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 147, in execute_job
+    retval = method(**kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1124, in create_contact
+    contact.insert(
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in insert
+    self._validate_links()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/model/document.py", line 910, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/__init__.py", line 505, in throw
+    msgprint(
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/__init__.py", line 480, in msgprint
+    _raise_exception()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/__init__.py", line 435, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: mustaffabro@gmail.com
+
+2023-11-01 19:51:23,847 Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 147, in execute_job
+    retval = method(**kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1124, in create_contact
+    contact.insert(
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in insert
+    self._validate_links()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/model/document.py", line 910, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/__init__.py", line 505, in throw
+    msgprint(
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/__init__.py", line 480, in msgprint
+    _raise_exception()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/__init__.py", line 435, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: mustaffabro@gmail.com
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+2023-11-01 20:24:08,062 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+2023-11-01 20:24:08,057 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+2023-11-01 20:24:08,068 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+2023-11-01 20:24:09,059 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-01 20:24:09,064 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-01 20:24:09,071 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-01 20:24:11,060 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+2023-11-01 20:24:11,070 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+2023-11-01 20:24:11,075 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+2023-11-01 20:24:15,064 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 8 seconds...
+2023-11-01 20:24:15,075 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 8 seconds...
+2023-11-01 20:24:15,080 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 8 seconds...
+2023-11-01 20:24:23,071 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-01 20:24:23,083 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-01 20:24:23,085 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+fatal: No remote configured to list refs from.
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    Exception in thread return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+2023-11-03 17:27:57,472 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    return callback(*args, **kwargs)
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+Thread-1    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+2023-11-03 17:27:57,495 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+2023-11-03 17:27:57,506 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+    pubsub.get_message(ignore_subscribe_messages=True,
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+2023-11-03 17:27:58,473 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-03 17:27:58,504 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-03 17:27:58,509 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-03 17:28:00,476 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+2023-11-03 17:28:00,513 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+2023-11-03 17:28:00,513 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+2023-11-03 17:28:05,048 Could not connect to Redis instance: Connection closed by server. Retrying in 8 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+2023-11-03 17:28:05,049 Could not connect to Redis instance: Connection closed by server. Retrying in 8 seconds...
+2023-11-03 17:28:05,049 Could not connect to Redis instance: Connection closed by server. Retrying in 8 seconds...
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+2023-11-03 17:28:13,058 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-03 17:28:13,058 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-03 17:28:13,058 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-03 17:28:29,074 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 32 seconds...
+2023-11-03 17:28:29,207 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 32 seconds...
+2023-11-03 17:28:29,263 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 32 seconds...
+2023-11-03 17:29:01,106 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:29:01,238 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:29:01,374 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+2023-11-03 17:30:01,165 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:30:01,297 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:30:01,434 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:31:01,226 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:31:01,321 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:31:01,451 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:32:01,289 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:32:01,374 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:32:01,518 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:33:01,352 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:33:01,436 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:33:01,577 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:34:01,414 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:34:01,497 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:34:01,637 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:35:01,474 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:35:01,526 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:35:01,698 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:36:01,535 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:36:01,547 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:36:01,765 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:37:01,598 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:37:01,746 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:37:01,826 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:38:01,665 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:38:01,781 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-03 17:38:01,889 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 427, in read_from_socket
+    bufflen = recv_into(self._sock, self._buffer)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/_compat.py", line 75, in recv_into
+    return sock.recv_into(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4019, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 470, in read_response
+    self.read_from_socket()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 452, in read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+fatal: No remote configured to list refs from.
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+2023-11-05 15:15:01,135 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+2023-11-05 15:15:01,142 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    Worker(queues, name=get_worker_name(queue)).work(Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+    self.run()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+2023-11-05 15:15:01,141 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+2023-11-05 15:15:02,139 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-05 15:15:02,151 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-05 15:15:02,202 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 2 seconds...
+2023-11-05 15:15:04,141 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+2023-11-05 15:15:04,152 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+2023-11-05 15:15:04,204 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 4 seconds...
+2023-11-05 15:15:08,151 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 8 seconds...
+2023-11-05 15:15:08,183 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 8 seconds...
+2023-11-05 15:15:08,214 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 8 seconds...
+2023-11-05 15:15:16,160 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-05 15:15:16,193 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-05 15:15:16,225 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 16 seconds...
+2023-11-05 15:15:32,202 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 32 seconds...
+2023-11-05 15:15:32,212 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 32 seconds...
+2023-11-05 15:15:32,239 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 32 seconds...
+2023-11-05 15:16:04,246 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:16:04,252 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:16:04,272 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:17:04,304 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:17:04,312 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:17:04,332 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:18:04,377 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:18:04,382 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:18:04,392 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:19:04,437 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:19:04,441 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:19:04,444 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:20:04,462 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:20:04,502 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:20:04,508 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:21:04,560 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:21:04,569 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:21:04,574 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:22:04,626 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:22:04,637 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:22:04,641 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:23:04,681 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:23:04,688 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:23:04,695 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:24:04,750 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:24:04,759 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:24:04,759 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:25:04,795 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:25:04,808 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:25:04,808 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+2023-11-05 15:26:04,857 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:26:04,868 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+2023-11-05 15:26:04,869 Could not connect to Redis instance: Error 111 connecting to 127.0.0.1:11000. Connection refused. Retrying in 60 seconds...
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+Traceback (most recent call last):
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+    exec(code, run_globals)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+    return callback(*args, **kwargs)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 207, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/mustafa/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 205, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mustafa/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+/home/mustafa/frappe-bench/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable

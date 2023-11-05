@@ -1,0 +1,802 @@
+2023-11-01 16:44:17,615 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.employee.employee_reminders.send_reminders_in_advance_weekly for mustafa.khan
+2023-11-01 16:44:17,635 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for mustafa.khan
+2023-11-01 16:44:19,115 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for mustafa.khan
+2023-11-01 16:44:19,258 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.employee.employee_reminders.send_reminders_in_advance_weekly for mustafa.khan
+2023-11-01 16:44:19,328 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for mustafa.khan
+2023-11-01 16:44:19,453 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.employee.employee_reminders.send_reminders_in_advance_monthly for mustafa.khan
+2023-11-01 16:44:19,824 INFO scheduler Scheduled Job Complete: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for mustafa.khan
+2023-11-01 16:44:19,916 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.employee.employee_reminders.send_reminders_in_advance_monthly for mustafa.khan
+2023-11-01 16:44:20,010 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for mustafa.khan
+2023-11-01 16:44:20,107 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_daily_feedback_reminder for mustafa.khan
+2023-11-01 16:44:20,497 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for mustafa.khan
+2023-11-01 16:44:20,578 INFO scheduler Scheduled Job Failed: erpnext.hr.doctype.interview.interview.send_daily_feedback_reminder for mustafa.khan
+2023-11-01 16:44:20,655 INFO scheduler Scheduled Job Start: erpnext.loan_management.doctype.process_loan_interest_accrual.process_loan_interest_accrual.process_loan_interest_accrual_for_demand_loans for mustafa.khan
+2023-11-01 16:44:20,789 INFO scheduler Scheduled Job Start: erpnext.non_profit.doctype.membership.membership.set_expired_status for mustafa.khan
+2023-11-01 16:44:20,858 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:44:21,087 INFO scheduler Scheduled Job Complete: erpnext.non_profit.doctype.membership.membership.set_expired_status for mustafa.khan
+2023-11-01 16:44:21,220 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.process_statement_of_accounts.process_statement_of_accounts.send_auto_email for mustafa.khan
+2023-11-01 16:44:21,284 INFO scheduler Scheduled Job Complete: erpnext.loan_management.doctype.process_loan_interest_accrual.process_loan_interest_accrual.process_loan_interest_accrual_for_demand_loans for mustafa.khan
+2023-11-01 16:44:21,416 INFO scheduler Scheduled Job Start: erpnext.accounts.deferred_revenue.process_deferred_accounting for mustafa.khan
+2023-11-01 16:44:21,713 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.process_statement_of_accounts.process_statement_of_accounts.send_auto_email for mustafa.khan
+2023-11-01 16:44:21,834 INFO scheduler Scheduled Job Start: erpnext.buying.doctype.supplier_quotation.supplier_quotation.set_expired_status for mustafa.khan
+2023-11-01 16:44:21,841 INFO scheduler Scheduled Job Complete: erpnext.accounts.deferred_revenue.process_deferred_accounting for mustafa.khan
+2023-11-01 16:44:21,966 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.lead.lead.daily_open_lead for mustafa.khan
+2023-11-01 16:44:22,295 INFO scheduler Scheduled Job Complete: erpnext.buying.doctype.supplier_quotation.supplier_quotation.set_expired_status for mustafa.khan
+2023-11-01 16:44:22,440 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.update_appointment_status for mustafa.khan
+2023-11-01 16:44:22,513 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.lead.lead.daily_open_lead for mustafa.khan
+2023-11-01 16:44:22,651 INFO scheduler Scheduled Job Start: erpnext.loan_management.doctype.process_loan_interest_accrual.process_loan_interest_accrual.process_loan_interest_accrual_for_term_loans for mustafa.khan
+2023-11-01 16:44:22,801 INFO scheduler Scheduled Job Failed: erpnext.healthcare.doctype.patient_appointment.patient_appointment.update_appointment_status for mustafa.khan
+2023-11-01 16:44:22,929 INFO scheduler Scheduled Job Start: erpnext.selling.doctype.quotation.quotation.set_expired_status for mustafa.khan
+2023-11-01 16:44:23,059 INFO scheduler Scheduled Job Complete: erpnext.loan_management.doctype.process_loan_interest_accrual.process_loan_interest_accrual.process_loan_interest_accrual_for_term_loans for mustafa.khan
+2023-11-01 16:44:23,193 INFO scheduler Scheduled Job Start: erpnext.loan_management.doctype.process_loan_security_shortfall.process_loan_security_shortfall.create_process_loan_security_shortfall for mustafa.khan
+2023-11-01 16:44:23,392 INFO scheduler Scheduled Job Complete: erpnext.selling.doctype.quotation.quotation.set_expired_status for mustafa.khan
+2023-11-01 16:44:23,522 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.email_campaign.email_campaign.set_email_campaign_status for mustafa.khan
+2023-11-01 16:44:23,552 INFO scheduler Scheduled Job Complete: erpnext.loan_management.doctype.process_loan_security_shortfall.process_loan_security_shortfall.create_process_loan_security_shortfall for mustafa.khan
+2023-11-01 16:44:23,666 INFO scheduler Scheduled Job Start: erpnext.hr.utils.allocate_earned_leaves for mustafa.khan
+2023-11-01 16:44:23,893 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.email_campaign.email_campaign.set_email_campaign_status for mustafa.khan
+2023-11-01 16:44:24,020 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.email_campaign.email_campaign.send_email_to_leads_or_contacts for mustafa.khan
+2023-11-01 16:44:24,042 INFO scheduler Scheduled Job Complete: erpnext.hr.utils.allocate_earned_leaves for mustafa.khan
+2023-11-01 16:44:24,160 INFO scheduler Scheduled Job Start: erpnext.hr.utils.generate_leave_encashment for mustafa.khan
+2023-11-01 16:44:24,369 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.email_campaign.email_campaign.send_email_to_leads_or_contacts for mustafa.khan
+2023-11-01 16:44:24,493 INFO scheduler Scheduled Job Complete: erpnext.hr.utils.generate_leave_encashment for mustafa.khan
+2023-11-01 16:44:24,502 INFO scheduler Scheduled Job Start: erpnext.support.doctype.service_level_agreement.service_level_agreement.check_agreement_status for mustafa.khan
+2023-11-01 16:44:24,609 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.leave_ledger_entry.leave_ledger_entry.process_expired_allocation for mustafa.khan
+2023-11-01 16:44:24,871 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.service_level_agreement.service_level_agreement.check_agreement_status for mustafa.khan
+2023-11-01 16:44:24,909 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.leave_ledger_entry.leave_ledger_entry.process_expired_allocation for mustafa.khan
+2023-11-01 16:44:24,991 INFO scheduler Scheduled Job Start: erpnext.quality_management.doctype.quality_review.quality_review.review for mustafa.khan
+2023-11-01 16:44:25,027 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_tool.bom_update_tool.auto_update_latest_price_in_all_boms for mustafa.khan
+2023-11-01 16:44:25,384 INFO scheduler Scheduled Job Complete: erpnext.quality_management.doctype.quality_review.quality_review.review for mustafa.khan
+2023-11-01 16:44:25,403 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_tool.bom_update_tool.auto_update_latest_price_in_all_boms for mustafa.khan
+2023-11-01 16:44:25,508 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.send_project_status_email_to_users for mustafa.khan
+2023-11-01 16:44:25,529 INFO scheduler Scheduled Job Start: erpnext.setup.doctype.email_digest.email_digest.send for mustafa.khan
+2023-11-01 16:44:25,825 INFO scheduler Scheduled Job Complete: erpnext.setup.doctype.email_digest.email_digest.send for mustafa.khan
+2023-11-01 16:44:25,935 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.send_project_status_email_to_users for mustafa.khan
+2023-11-01 16:44:25,941 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_monthly for mustafa.khan
+2023-11-01 16:44:26,063 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.update_project_sales_billing for mustafa.khan
+2023-11-01 16:44:26,372 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_monthly for mustafa.khan
+2023-11-01 16:44:26,497 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_drive.google_drive.weekly_backup for mustafa.khan
+2023-11-01 16:44:26,551 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.update_project_sales_billing for mustafa.khan
+2023-11-01 16:44:26,677 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.contract.contract.update_status_for_contracts for mustafa.khan
+2023-11-01 16:44:27,053 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.contract.contract.update_status_for_contracts for mustafa.khan
+2023-11-01 16:44:27,085 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_drive.google_drive.weekly_backup for mustafa.khan
+2023-11-01 16:44:27,176 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.asset.make_post_gl_entry for mustafa.khan
+2023-11-01 16:44:27,208 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_log.energy_point_log.send_weekly_summary for mustafa.khan
+2023-11-01 16:44:27,506 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_log.energy_point_log.send_weekly_summary for mustafa.khan
+2023-11-01 16:44:27,613 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_weekly_updates for mustafa.khan
+2023-11-01 16:44:27,648 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.asset.make_post_gl_entry for mustafa.khan
+2023-11-01 16:44:27,778 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.asset.update_maintenance_status for mustafa.khan
+2023-11-01 16:44:28,028 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_weekly_updates for mustafa.khan
+2023-11-01 16:44:28,174 INFO scheduler Scheduled Job Start: frappe.desk.doctype.route_history.route_history.flush_old_route_records for mustafa.khan
+2023-11-01 16:44:28,346 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.asset.update_maintenance_status for mustafa.khan
+2023-11-01 16:44:28,477 INFO scheduler Scheduled Job Start: erpnext.setup.doctype.company.company.cache_companies_monthly_sales_history for mustafa.khan
+2023-11-01 16:44:28,495 INFO scheduler Scheduled Job Complete: frappe.desk.doctype.route_history.route_history.flush_old_route_records for mustafa.khan
+2023-11-01 16:44:28,612 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_weekly for mustafa.khan
+2023-11-01 16:44:28,831 INFO scheduler Scheduled Job Complete: erpnext.setup.doctype.company.company.cache_companies_monthly_sales_history for mustafa.khan
+2023-11-01 16:44:28,961 INFO scheduler Scheduled Job Start: erpnext.buying.doctype.supplier_scorecard.supplier_scorecard.refresh_scorecards for mustafa.khan
+2023-11-01 16:44:29,037 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_weekly for mustafa.khan
+2023-11-01 16:44:29,148 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_weekly for mustafa.khan
+2023-11-01 16:44:29,273 INFO scheduler Scheduled Job Complete: erpnext.buying.doctype.supplier_scorecard.supplier_scorecard.refresh_scorecards for mustafa.khan
+2023-11-01 16:44:29,396 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.serial_no.serial_no.update_maintenance_status for mustafa.khan
+2023-11-01 16:44:29,780 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_weekly for mustafa.khan
+2023-11-01 16:44:29,832 INFO scheduler Scheduled Job Complete: erpnext.stock.doctype.serial_no.serial_no.update_maintenance_status for mustafa.khan
+2023-11-01 16:44:29,915 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_drive.google_drive.daily_backup for mustafa.khan
+2023-11-01 16:44:29,971 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.send_summary for mustafa.khan
+2023-11-01 16:44:30,327 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.send_summary for mustafa.khan
+2023-11-01 16:44:30,443 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.depreciation.post_depreciation_entries for mustafa.khan
+2023-11-01 16:44:30,464 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_drive.google_drive.daily_backup for mustafa.khan
+2023-11-01 16:44:30,605 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for mustafa.khan
+2023-11-01 16:44:30,769 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.depreciation.post_depreciation_entries for mustafa.khan
+2023-11-01 16:44:30,881 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.task.task.set_tasks_as_overdue for mustafa.khan
+2023-11-01 16:44:31,276 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.task.task.set_tasks_as_overdue for mustafa.khan
+2023-11-01 16:44:31,280 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for mustafa.khan
+2023-11-01 16:44:31,423 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.employee.employee_reminders.send_birthday_reminders for mustafa.khan
+2023-11-01 16:44:31,430 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for mustafa.khan
+2023-11-01 16:44:31,727 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.employee.employee_reminders.send_birthday_reminders for mustafa.khan
+2023-11-01 16:44:31,821 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for mustafa.khan
+2023-11-01 16:44:31,868 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.employee.employee_reminders.send_work_anniversary_reminders for mustafa.khan
+2023-11-01 16:44:31,948 INFO scheduler Scheduled Job Start: frappe.utils.change_log.check_for_update for mustafa.khan
+2023-11-01 16:44:32,186 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.employee.employee_reminders.send_work_anniversary_reminders for mustafa.khan
+2023-11-01 16:44:32,349 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_fiscal_year for mustafa.khan
+2023-11-01 16:44:32,663 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_fiscal_year for mustafa.khan
+2023-11-01 16:44:32,793 INFO scheduler Scheduled Job Start: erpnext.controllers.accounts_controller.update_invoice_status for mustafa.khan
+2023-11-01 16:44:33,177 INFO scheduler Scheduled Job Complete: erpnext.controllers.accounts_controller.update_invoice_status for mustafa.khan
+2023-11-01 16:44:33,294 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.opportunity.opportunity.auto_close_opportunity for mustafa.khan
+2023-11-01 16:44:33,592 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.opportunity.opportunity.auto_close_opportunity for mustafa.khan
+2023-11-01 16:44:33,723 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.auto_close_tickets for mustafa.khan
+2023-11-01 16:44:34,067 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.auto_close_tickets for mustafa.khan
+2023-11-01 16:44:34,096 INFO scheduler Scheduled Job Complete: frappe.utils.change_log.check_for_update for mustafa.khan
+2023-11-01 16:44:34,229 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for mustafa.khan
+2023-11-01 16:44:34,259 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for mustafa.khan
+2023-11-01 16:44:34,816 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for mustafa.khan
+2023-11-01 16:44:34,900 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for mustafa.khan
+2023-11-01 16:44:34,959 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for mustafa.khan
+2023-11-01 16:44:35,328 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for mustafa.khan
+2023-11-01 16:44:35,439 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for mustafa.khan
+2023-11-01 16:44:35,832 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for mustafa.khan
+2023-11-01 16:44:35,969 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for mustafa.khan
+2023-11-01 16:44:36,406 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for mustafa.khan
+2023-11-01 16:44:36,529 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for mustafa.khan
+2023-11-01 16:44:37,050 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for mustafa.khan
+2023-11-01 16:44:37,180 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for mustafa.khan
+2023-11-01 16:44:37,557 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for mustafa.khan
+2023-11-01 16:44:37,683 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for mustafa.khan
+2023-11-01 16:44:38,049 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for mustafa.khan
+2023-11-01 16:44:38,182 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mustafa.khan
+2023-11-01 16:44:38,523 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mustafa.khan
+2023-11-01 16:44:38,644 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for mustafa.khan
+2023-11-01 16:44:38,983 INFO scheduler Scheduled Job Failed: erpnext.hr.doctype.interview.interview.send_interview_reminder for mustafa.khan
+2023-11-01 16:44:39,106 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mustafa.khan
+2023-11-01 16:44:39,439 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mustafa.khan
+2023-11-01 16:44:39,556 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for mustafa.khan
+2023-11-01 16:44:39,913 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for mustafa.khan
+2023-11-01 16:44:40,032 INFO scheduler Scheduled Job Start: erpnext.stock.reorder_item.reorder_item for mustafa.khan
+2023-11-01 16:44:40,333 INFO scheduler Scheduled Job Complete: erpnext.stock.reorder_item.reorder_item for mustafa.khan
+2023-11-01 16:44:40,467 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for mustafa.khan
+2023-11-01 16:44:40,920 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for mustafa.khan
+2023-11-01 16:44:41,053 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for mustafa.khan
+2023-11-01 16:44:41,483 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for mustafa.khan
+2023-11-01 16:44:41,613 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for mustafa.khan
+2023-11-01 16:44:41,982 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for mustafa.khan
+2023-11-01 16:44:42,101 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_log.energy_point_log.send_monthly_summary for mustafa.khan
+2023-11-01 16:44:42,380 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_log.energy_point_log.send_monthly_summary for mustafa.khan
+2023-11-01 16:44:42,510 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_monthly for mustafa.khan
+2023-11-01 16:44:43,129 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_monthly for mustafa.khan
+2023-11-01 16:44:43,258 INFO scheduler Scheduled Job Start: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for mustafa.khan
+2023-11-01 16:44:43,634 INFO scheduler Scheduled Job Complete: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for mustafa.khan
+2023-11-01 16:44:43,757 INFO scheduler Scheduled Job Start: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for mustafa.khan
+2023-11-01 16:44:44,146 INFO scheduler Scheduled Job Complete: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for mustafa.khan
+2023-11-01 16:44:44,269 INFO scheduler Scheduled Job Start: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for mustafa.khan
+2023-11-01 16:44:44,558 INFO scheduler Scheduled Job Complete: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for mustafa.khan
+2023-11-01 16:44:44,685 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for mustafa.khan
+2023-11-01 16:44:45,079 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for mustafa.khan
+2023-11-01 16:44:45,196 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for mustafa.khan
+2023-11-01 16:44:45,557 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for mustafa.khan
+2023-11-01 16:44:45,672 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_contacts.google_contacts.sync for mustafa.khan
+2023-11-01 16:44:46,244 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_contacts.google_contacts.sync for mustafa.khan
+2023-11-01 16:44:46,375 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for mustafa.khan
+2023-11-01 16:44:46,782 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for mustafa.khan
+2023-11-01 16:44:46,904 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_daily_updates for mustafa.khan
+2023-11-01 16:44:47,237 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_daily_updates for mustafa.khan
+2023-11-01 16:44:47,352 INFO scheduler Scheduled Job Start: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for mustafa.khan
+2023-11-01 16:44:47,616 INFO scheduler Scheduled Job Complete: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for mustafa.khan
+2023-11-01 16:44:47,739 INFO scheduler Scheduled Job Start: frappe.email.doctype.notification.notification.trigger_daily_alerts for mustafa.khan
+2023-11-01 16:44:48,107 INFO scheduler Scheduled Job Complete: frappe.email.doctype.notification.notification.trigger_daily_alerts for mustafa.khan
+2023-11-01 16:44:48,234 INFO scheduler Scheduled Job Start: frappe.sessions.clear_expired_sessions for mustafa.khan
+2023-11-01 16:44:48,526 INFO scheduler Scheduled Job Complete: frappe.sessions.clear_expired_sessions for mustafa.khan
+2023-11-01 16:44:48,651 INFO scheduler Scheduled Job Start: frappe.desk.doctype.event.event.send_event_digest for mustafa.khan
+2023-11-01 16:44:48,969 INFO scheduler Scheduled Job Complete: frappe.desk.doctype.event.event.send_event_digest for mustafa.khan
+2023-11-01 16:44:49,083 INFO scheduler Scheduled Job Start: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for mustafa.khan
+2023-11-01 16:44:49,335 INFO scheduler Scheduled Job Complete: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for mustafa.khan
+2023-11-01 16:44:49,456 INFO scheduler Scheduled Job Start: frappe.desk.notifications.clear_notifications for mustafa.khan
+2023-11-01 16:44:49,845 INFO scheduler Scheduled Job Complete: frappe.desk.notifications.clear_notifications for mustafa.khan
+2023-11-01 16:44:49,971 INFO scheduler Scheduled Job Start: frappe.email.queue.set_expiry_for_email_queue for mustafa.khan
+2023-11-01 16:44:50,299 INFO scheduler Scheduled Job Complete: frappe.email.queue.set_expiry_for_email_queue for mustafa.khan
+2023-11-01 16:44:50,430 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for mustafa.khan
+2023-11-01 16:44:50,862 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for mustafa.khan
+2023-11-01 16:44:50,987 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for mustafa.khan
+2023-11-01 16:44:51,562 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for mustafa.khan
+2023-11-01 16:44:51,680 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for mustafa.khan
+2023-11-01 16:44:52,019 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for mustafa.khan
+2023-11-01 16:44:52,143 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for mustafa.khan
+2023-11-01 16:44:52,445 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for mustafa.khan
+2023-11-01 16:44:52,561 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for mustafa.khan
+2023-11-01 16:44:52,864 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for mustafa.khan
+2023-11-01 16:44:52,982 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for mustafa.khan
+2023-11-01 16:44:53,373 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for mustafa.khan
+2023-11-01 16:44:53,503 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for mustafa.khan
+2023-11-01 16:44:53,815 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for mustafa.khan
+2023-11-01 16:44:53,945 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for mustafa.khan
+2023-11-01 16:44:54,245 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for mustafa.khan
+2023-11-01 16:44:54,366 INFO scheduler Scheduled Job Start: frappe.monitor.flush for mustafa.khan
+2023-11-01 16:44:54,604 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for mustafa.khan
+2023-11-01 16:44:54,721 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for mustafa.khan
+2023-11-01 16:44:54,954 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for mustafa.khan
+2023-11-01 16:44:55,079 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mustafa.khan
+2023-11-01 16:44:55,542 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mustafa.khan
+2023-11-01 16:44:55,661 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for mustafa.khan
+2023-11-01 16:44:56,018 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for mustafa.khan
+2023-11-01 16:44:56,132 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for mustafa.khan
+2023-11-01 16:44:56,449 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for mustafa.khan
+2023-11-01 16:44:56,559 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for mustafa.khan
+2023-11-01 16:44:56,837 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for mustafa.khan
+2023-11-01 16:44:56,956 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for mustafa.khan
+2023-11-01 16:44:57,281 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for mustafa.khan
+2023-11-01 16:44:57,404 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for mustafa.khan
+2023-11-01 16:44:57,850 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for mustafa.khan
+2023-11-01 16:44:57,982 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for mustafa.khan
+2023-11-01 16:44:58,461 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for mustafa.khan
+2023-11-01 16:45:20,885 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:46:20,967 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:47:20,999 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:48:21,080 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:49:21,165 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:50:21,243 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:51:21,320 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:52:21,401 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:53:21,474 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:54:21,553 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:55:21,641 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:56:21,718 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:57:21,799 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:58:21,883 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 16:59:21,919 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:00:21,964 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:01:22,020 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:02:22,064 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:03:22,122 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:04:22,197 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:05:22,248 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:06:22,272 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:07:22,349 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:08:22,428 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:09:22,490 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:10:22,569 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:11:22,642 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:12:22,706 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:13:22,789 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:14:22,840 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:15:22,927 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:16:23,013 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:17:23,056 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:18:23,077 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:19:23,157 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:20:23,241 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:21:23,272 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:22:23,349 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:23:23,425 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:24:23,498 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:25:23,571 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:26:23,642 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:27:23,718 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:28:23,795 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:29:23,868 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:30:23,940 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:31:24,018 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:32:24,095 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:33:24,169 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:34:24,240 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:35:24,288 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:36:24,363 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:37:24,436 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:38:24,464 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:39:24,539 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:40:24,620 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:41:24,661 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:42:24,738 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:43:24,762 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:44:24,800 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:45:24,872 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:46:24,950 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:47:25,011 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:48:25,087 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:49:25,115 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:50:25,180 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:51:25,255 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:52:25,331 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:53:25,409 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:54:25,437 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:55:25,507 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:56:25,583 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:57:25,656 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:58:25,732 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 17:59:25,765 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:00:25,839 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:01:25,917 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:02:25,990 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:03:26,066 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:04:26,106 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:05:26,179 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:06:26,252 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:07:26,333 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:08:26,406 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:09:26,480 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:10:26,518 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:11:26,592 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:12:26,651 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:13:26,727 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:14:26,809 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:15:26,876 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:16:26,937 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:17:26,970 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:18:27,034 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:19:27,061 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:20:27,109 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:21:27,183 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:22:27,265 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:23:27,337 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:24:27,409 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:25:27,483 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:26:27,505 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:27:27,578 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:28:27,658 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:29:27,721 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:30:27,793 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:31:27,868 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:32:27,892 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:33:27,966 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:34:28,040 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:35:28,112 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:36:28,184 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:37:28,259 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:38:28,338 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:39:28,415 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:40:28,487 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:41:28,563 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:42:28,637 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:43:28,707 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:44:28,779 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:45:28,854 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:46:28,927 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:47:28,999 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:48:29,073 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:49:29,143 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:50:29,218 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:51:29,293 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:52:29,369 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:53:29,439 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:54:29,510 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:55:29,587 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:56:29,667 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:57:29,741 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:58:29,810 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 18:59:29,884 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:00:29,957 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:01:30,030 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:02:30,105 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:03:30,175 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:04:30,252 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:05:30,323 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:06:30,399 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:07:30,474 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:08:30,549 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:09:30,620 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:10:30,640 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:11:30,665 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:12:30,738 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:13:30,815 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:14:30,854 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:15:30,910 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:16:30,998 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:17:31,051 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:18:31,075 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:19:31,143 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:20:31,168 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:21:31,220 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:22:31,277 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:23:31,355 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:24:31,411 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:25:31,480 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:26:31,558 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:27:31,637 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:28:31,683 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:29:31,761 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:30:31,822 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:31:31,907 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:32:31,989 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:33:32,063 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:34:32,145 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:35:32,234 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:36:32,264 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:37:32,311 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:38:32,420 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:39:32,494 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:40:32,568 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:41:32,645 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:42:32,673 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:43:32,914 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:48:59,592 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:50:00,463 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for mustafa.khan
+2023-11-01 19:50:01,821 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for mustafa.khan
+2023-11-01 19:50:01,979 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_daily_feedback_reminder for mustafa.khan
+2023-11-01 19:50:02,461 INFO scheduler Scheduled Job Failed: erpnext.hr.doctype.interview.interview.send_daily_feedback_reminder for mustafa.khan
+2023-11-01 19:50:02,485 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:50:02,651 INFO scheduler Scheduled Job Start: erpnext.non_profit.doctype.membership.membership.set_expired_status for mustafa.khan
+2023-11-01 19:50:03,183 INFO scheduler Scheduled Job Complete: erpnext.non_profit.doctype.membership.membership.set_expired_status for mustafa.khan
+2023-11-01 19:50:03,389 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.process_statement_of_accounts.process_statement_of_accounts.send_auto_email for mustafa.khan
+2023-11-01 19:50:04,257 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.process_statement_of_accounts.process_statement_of_accounts.send_auto_email for mustafa.khan
+2023-11-01 19:50:04,388 INFO scheduler Scheduled Job Start: erpnext.buying.doctype.supplier_quotation.supplier_quotation.set_expired_status for mustafa.khan
+2023-11-01 19:50:05,221 INFO scheduler Scheduled Job Complete: erpnext.buying.doctype.supplier_quotation.supplier_quotation.set_expired_status for mustafa.khan
+2023-11-01 19:50:05,346 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.update_appointment_status for mustafa.khan
+2023-11-01 19:50:05,670 INFO scheduler Scheduled Job Failed: erpnext.healthcare.doctype.patient_appointment.patient_appointment.update_appointment_status for mustafa.khan
+2023-11-01 19:50:05,828 INFO scheduler Scheduled Job Start: erpnext.selling.doctype.quotation.quotation.set_expired_status for mustafa.khan
+2023-11-01 19:50:06,374 INFO scheduler Scheduled Job Complete: erpnext.selling.doctype.quotation.quotation.set_expired_status for mustafa.khan
+2023-11-01 19:50:06,512 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.email_campaign.email_campaign.set_email_campaign_status for mustafa.khan
+2023-11-01 19:50:07,032 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.email_campaign.email_campaign.set_email_campaign_status for mustafa.khan
+2023-11-01 19:50:07,225 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.email_campaign.email_campaign.send_email_to_leads_or_contacts for mustafa.khan
+2023-11-01 19:50:07,616 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.email_campaign.email_campaign.send_email_to_leads_or_contacts for mustafa.khan
+2023-11-01 19:50:07,801 INFO scheduler Scheduled Job Start: erpnext.support.doctype.service_level_agreement.service_level_agreement.check_agreement_status for mustafa.khan
+2023-11-01 19:50:08,215 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.service_level_agreement.service_level_agreement.check_agreement_status for mustafa.khan
+2023-11-01 19:50:08,466 INFO scheduler Scheduled Job Start: erpnext.quality_management.doctype.quality_review.quality_review.review for mustafa.khan
+2023-11-01 19:50:08,909 INFO scheduler Scheduled Job Complete: erpnext.quality_management.doctype.quality_review.quality_review.review for mustafa.khan
+2023-11-01 19:50:09,042 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.send_project_status_email_to_users for mustafa.khan
+2023-11-01 19:50:09,496 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.send_project_status_email_to_users for mustafa.khan
+2023-11-01 19:50:09,638 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.update_project_sales_billing for mustafa.khan
+2023-11-01 19:50:10,153 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.update_project_sales_billing for mustafa.khan
+2023-11-01 19:50:10,308 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.contract.contract.update_status_for_contracts for mustafa.khan
+2023-11-01 19:50:10,695 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.contract.contract.update_status_for_contracts for mustafa.khan
+2023-11-01 19:50:10,823 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.asset.make_post_gl_entry for mustafa.khan
+2023-11-01 19:50:11,346 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.asset.make_post_gl_entry for mustafa.khan
+2023-11-01 19:50:11,479 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.asset.update_maintenance_status for mustafa.khan
+2023-11-01 19:50:11,976 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.asset.update_maintenance_status for mustafa.khan
+2023-11-01 19:50:12,102 INFO scheduler Scheduled Job Start: erpnext.setup.doctype.company.company.cache_companies_monthly_sales_history for mustafa.khan
+2023-11-01 19:50:12,544 INFO scheduler Scheduled Job Complete: erpnext.setup.doctype.company.company.cache_companies_monthly_sales_history for mustafa.khan
+2023-11-01 19:50:12,671 INFO scheduler Scheduled Job Start: erpnext.buying.doctype.supplier_scorecard.supplier_scorecard.refresh_scorecards for mustafa.khan
+2023-11-01 19:50:12,984 INFO scheduler Scheduled Job Complete: erpnext.buying.doctype.supplier_scorecard.supplier_scorecard.refresh_scorecards for mustafa.khan
+2023-11-01 19:50:13,120 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.serial_no.serial_no.update_maintenance_status for mustafa.khan
+2023-11-01 19:50:13,569 INFO scheduler Scheduled Job Complete: erpnext.stock.doctype.serial_no.serial_no.update_maintenance_status for mustafa.khan
+2023-11-01 19:50:13,704 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.send_summary for mustafa.khan
+2023-11-01 19:50:14,122 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.send_summary for mustafa.khan
+2023-11-01 19:50:14,247 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.depreciation.post_depreciation_entries for mustafa.khan
+2023-11-01 19:50:14,631 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.depreciation.post_depreciation_entries for mustafa.khan
+2023-11-01 19:50:14,777 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.task.task.set_tasks_as_overdue for mustafa.khan
+2023-11-01 19:50:15,238 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.task.task.set_tasks_as_overdue for mustafa.khan
+2023-11-01 19:50:15,365 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.employee.employee_reminders.send_birthday_reminders for mustafa.khan
+2023-11-01 19:50:15,741 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.employee.employee_reminders.send_birthday_reminders for mustafa.khan
+2023-11-01 19:50:15,864 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.employee.employee_reminders.send_work_anniversary_reminders for mustafa.khan
+2023-11-01 19:50:16,245 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.employee.employee_reminders.send_work_anniversary_reminders for mustafa.khan
+2023-11-01 19:50:16,371 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_fiscal_year for mustafa.khan
+2023-11-01 19:50:16,675 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_fiscal_year for mustafa.khan
+2023-11-01 19:50:16,789 INFO scheduler Scheduled Job Start: erpnext.controllers.accounts_controller.update_invoice_status for mustafa.khan
+2023-11-01 19:50:17,246 INFO scheduler Scheduled Job Complete: erpnext.controllers.accounts_controller.update_invoice_status for mustafa.khan
+2023-11-01 19:50:17,385 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.opportunity.opportunity.auto_close_opportunity for mustafa.khan
+2023-11-01 19:50:17,768 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.opportunity.opportunity.auto_close_opportunity for mustafa.khan
+2023-11-01 19:50:17,931 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.auto_close_tickets for mustafa.khan
+2023-11-01 19:50:18,324 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.auto_close_tickets for mustafa.khan
+2023-11-01 19:50:18,462 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for mustafa.khan
+2023-11-01 19:50:19,158 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for mustafa.khan
+2023-11-01 19:50:19,301 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for mustafa.khan
+2023-11-01 19:50:19,793 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for mustafa.khan
+2023-11-01 19:50:19,982 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for mustafa.khan
+2023-11-01 19:50:20,412 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for mustafa.khan
+2023-11-01 19:50:20,668 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for mustafa.khan
+2023-11-01 19:50:21,283 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for mustafa.khan
+2023-11-01 19:50:21,491 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for mustafa.khan
+2023-11-01 19:50:22,078 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for mustafa.khan
+2023-11-01 19:50:22,205 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for mustafa.khan
+2023-11-01 19:50:22,595 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for mustafa.khan
+2023-11-01 19:50:22,732 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for mustafa.khan
+2023-11-01 19:50:23,111 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for mustafa.khan
+2023-11-01 19:50:23,253 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mustafa.khan
+2023-11-01 19:50:23,583 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mustafa.khan
+2023-11-01 19:50:23,698 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for mustafa.khan
+2023-11-01 19:50:24,021 INFO scheduler Scheduled Job Failed: erpnext.hr.doctype.interview.interview.send_interview_reminder for mustafa.khan
+2023-11-01 19:50:24,147 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mustafa.khan
+2023-11-01 19:50:24,498 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mustafa.khan
+2023-11-01 19:50:24,616 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for mustafa.khan
+2023-11-01 19:50:24,972 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for mustafa.khan
+2023-11-01 19:50:25,094 INFO scheduler Scheduled Job Start: erpnext.stock.reorder_item.reorder_item for mustafa.khan
+2023-11-01 19:50:25,429 INFO scheduler Scheduled Job Complete: erpnext.stock.reorder_item.reorder_item for mustafa.khan
+2023-11-01 19:50:25,561 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for mustafa.khan
+2023-11-01 19:50:25,999 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for mustafa.khan
+2023-11-01 19:50:26,118 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for mustafa.khan
+2023-11-01 19:50:26,753 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for mustafa.khan
+2023-11-01 19:50:26,877 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for mustafa.khan
+2023-11-01 19:50:27,262 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for mustafa.khan
+2023-11-01 19:50:27,385 INFO scheduler Scheduled Job Start: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for mustafa.khan
+2023-11-01 19:50:27,781 INFO scheduler Scheduled Job Complete: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for mustafa.khan
+2023-11-01 19:50:27,895 INFO scheduler Scheduled Job Start: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for mustafa.khan
+2023-11-01 19:50:28,310 INFO scheduler Scheduled Job Complete: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for mustafa.khan
+2023-11-01 19:50:28,438 INFO scheduler Scheduled Job Start: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for mustafa.khan
+2023-11-01 19:50:28,768 INFO scheduler Scheduled Job Complete: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for mustafa.khan
+2023-11-01 19:50:28,895 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for mustafa.khan
+2023-11-01 19:50:29,322 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for mustafa.khan
+2023-11-01 19:50:29,452 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for mustafa.khan
+2023-11-01 19:50:29,823 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for mustafa.khan
+2023-11-01 19:50:29,955 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_contacts.google_contacts.sync for mustafa.khan
+2023-11-01 19:50:30,992 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_contacts.google_contacts.sync for mustafa.khan
+2023-11-01 19:50:31,144 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for mustafa.khan
+2023-11-01 19:50:31,473 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for mustafa.khan
+2023-11-01 19:50:31,604 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_daily_updates for mustafa.khan
+2023-11-01 19:50:31,995 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_daily_updates for mustafa.khan
+2023-11-01 19:50:32,113 INFO scheduler Scheduled Job Start: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for mustafa.khan
+2023-11-01 19:50:32,429 INFO scheduler Scheduled Job Complete: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for mustafa.khan
+2023-11-01 19:50:32,549 INFO scheduler Scheduled Job Start: frappe.email.doctype.notification.notification.trigger_daily_alerts for mustafa.khan
+2023-11-01 19:50:32,969 INFO scheduler Scheduled Job Complete: frappe.email.doctype.notification.notification.trigger_daily_alerts for mustafa.khan
+2023-11-01 19:50:33,099 INFO scheduler Scheduled Job Start: frappe.sessions.clear_expired_sessions for mustafa.khan
+2023-11-01 19:50:33,417 INFO scheduler Scheduled Job Complete: frappe.sessions.clear_expired_sessions for mustafa.khan
+2023-11-01 19:50:33,559 INFO scheduler Scheduled Job Start: frappe.desk.doctype.event.event.send_event_digest for mustafa.khan
+2023-11-01 19:50:33,924 INFO scheduler Scheduled Job Complete: frappe.desk.doctype.event.event.send_event_digest for mustafa.khan
+2023-11-01 19:50:34,063 INFO scheduler Scheduled Job Start: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for mustafa.khan
+2023-11-01 19:50:34,404 INFO scheduler Scheduled Job Complete: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for mustafa.khan
+2023-11-01 19:50:34,535 INFO scheduler Scheduled Job Start: frappe.desk.notifications.clear_notifications for mustafa.khan
+2023-11-01 19:50:34,865 INFO scheduler Scheduled Job Complete: frappe.desk.notifications.clear_notifications for mustafa.khan
+2023-11-01 19:50:35,000 INFO scheduler Scheduled Job Start: frappe.email.queue.set_expiry_for_email_queue for mustafa.khan
+2023-11-01 19:50:35,322 INFO scheduler Scheduled Job Complete: frappe.email.queue.set_expiry_for_email_queue for mustafa.khan
+2023-11-01 19:50:35,450 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for mustafa.khan
+2023-11-01 19:50:35,902 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for mustafa.khan
+2023-11-01 19:50:36,034 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for mustafa.khan
+2023-11-01 19:50:36,695 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for mustafa.khan
+2023-11-01 19:50:36,835 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for mustafa.khan
+2023-11-01 19:50:37,185 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for mustafa.khan
+2023-11-01 19:50:37,326 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for mustafa.khan
+2023-11-01 19:50:37,678 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for mustafa.khan
+2023-11-01 19:50:37,816 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for mustafa.khan
+2023-11-01 19:50:38,175 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for mustafa.khan
+2023-11-01 19:50:38,316 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for mustafa.khan
+2023-11-01 19:50:38,978 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for mustafa.khan
+2023-11-01 19:50:39,101 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for mustafa.khan
+2023-11-01 19:50:39,383 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for mustafa.khan
+2023-11-01 19:50:39,502 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for mustafa.khan
+2023-11-01 19:50:39,781 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for mustafa.khan
+2023-11-01 19:50:39,918 INFO scheduler Scheduled Job Start: frappe.monitor.flush for mustafa.khan
+2023-11-01 19:50:40,211 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for mustafa.khan
+2023-11-01 19:50:40,339 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for mustafa.khan
+2023-11-01 19:50:40,600 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for mustafa.khan
+2023-11-01 19:50:40,729 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mustafa.khan
+2023-11-01 19:50:41,305 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mustafa.khan
+2023-11-01 19:50:41,429 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for mustafa.khan
+2023-11-01 19:50:41,852 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for mustafa.khan
+2023-11-01 19:50:41,968 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for mustafa.khan
+2023-11-01 19:50:42,371 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for mustafa.khan
+2023-11-01 19:50:42,492 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for mustafa.khan
+2023-11-01 19:50:42,790 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for mustafa.khan
+2023-11-01 19:50:42,912 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for mustafa.khan
+2023-11-01 19:50:43,271 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for mustafa.khan
+2023-11-01 19:50:43,405 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for mustafa.khan
+2023-11-01 19:50:43,913 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for mustafa.khan
+2023-11-01 19:50:44,072 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for mustafa.khan
+2023-11-01 19:50:44,585 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for mustafa.khan
+2023-11-01 19:50:45,028 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for mustafa.khan
+2023-11-01 19:50:45,446 INFO scheduler Scheduled Job Complete: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for mustafa.khan
+2023-11-01 19:50:45,578 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for mustafa.khan
+2023-11-01 19:50:46,060 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for mustafa.khan
+2023-11-01 19:50:46,198 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.lead.lead.daily_open_lead for mustafa.khan
+2023-11-01 19:50:46,774 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.lead.lead.daily_open_lead for mustafa.khan
+2023-11-01 19:50:46,918 INFO scheduler Scheduled Job Start: erpnext.loan_management.doctype.process_loan_interest_accrual.process_loan_interest_accrual.process_loan_interest_accrual_for_term_loans for mustafa.khan
+2023-11-01 19:50:47,388 INFO scheduler Scheduled Job Complete: erpnext.loan_management.doctype.process_loan_interest_accrual.process_loan_interest_accrual.process_loan_interest_accrual_for_term_loans for mustafa.khan
+2023-11-01 19:50:47,526 INFO scheduler Scheduled Job Start: erpnext.loan_management.doctype.process_loan_security_shortfall.process_loan_security_shortfall.create_process_loan_security_shortfall for mustafa.khan
+2023-11-01 19:50:47,867 INFO scheduler Scheduled Job Complete: erpnext.loan_management.doctype.process_loan_security_shortfall.process_loan_security_shortfall.create_process_loan_security_shortfall for mustafa.khan
+2023-11-01 19:50:47,992 INFO scheduler Scheduled Job Start: erpnext.hr.utils.allocate_earned_leaves for mustafa.khan
+2023-11-01 19:50:48,391 INFO scheduler Scheduled Job Complete: erpnext.hr.utils.allocate_earned_leaves for mustafa.khan
+2023-11-01 19:50:48,513 INFO scheduler Scheduled Job Start: erpnext.hr.utils.generate_leave_encashment for mustafa.khan
+2023-11-01 19:50:48,817 INFO scheduler Scheduled Job Complete: erpnext.hr.utils.generate_leave_encashment for mustafa.khan
+2023-11-01 19:50:48,945 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.leave_ledger_entry.leave_ledger_entry.process_expired_allocation for mustafa.khan
+2023-11-01 19:50:49,338 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.leave_ledger_entry.leave_ledger_entry.process_expired_allocation for mustafa.khan
+2023-11-01 19:50:49,465 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_tool.bom_update_tool.auto_update_latest_price_in_all_boms for mustafa.khan
+2023-11-01 19:50:49,856 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_tool.bom_update_tool.auto_update_latest_price_in_all_boms for mustafa.khan
+2023-11-01 19:50:50,018 INFO scheduler Scheduled Job Start: erpnext.setup.doctype.email_digest.email_digest.send for mustafa.khan
+2023-11-01 19:50:50,365 INFO scheduler Scheduled Job Complete: erpnext.setup.doctype.email_digest.email_digest.send for mustafa.khan
+2023-11-01 19:50:50,497 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_drive.google_drive.daily_backup for mustafa.khan
+2023-11-01 19:50:51,101 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_drive.google_drive.daily_backup for mustafa.khan
+2023-11-01 19:50:51,229 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for mustafa.khan
+2023-11-01 19:50:52,438 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for mustafa.khan
+2023-11-01 19:50:52,562 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for mustafa.khan
+2023-11-01 19:50:53,129 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for mustafa.khan
+2023-11-01 19:50:53,264 INFO scheduler Scheduled Job Start: frappe.utils.change_log.check_for_update for mustafa.khan
+2023-11-01 19:50:55,091 INFO scheduler Scheduled Job Complete: frappe.utils.change_log.check_for_update for mustafa.khan
+2023-11-01 19:50:55,210 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for mustafa.khan
+2023-11-01 19:50:55,859 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for mustafa.khan
+2023-11-01 19:51:02,820 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:52:03,611 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:53:04,076 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:54:04,419 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 19:55:04,717 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:03:14,467 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:04:14,813 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:05:15,141 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:06:15,515 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:07:15,905 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:08:16,330 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:09:16,762 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:10:17,201 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:11:17,509 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:12:17,897 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:13:18,244 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:14:18,655 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:15:19,172 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:16:19,752 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:17:20,003 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:18:20,322 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:19:20,674 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:19:57,707 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:20:21,141 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:21:21,531 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:21:37,532 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:22:22,016 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:22:37,866 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:23:22,409 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:24:35,371 ERROR scheduler Exception in Enqueue Events for Site mustafa.khan
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 72, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 90, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 239, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 209, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 198, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 194, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-11-01 20:25:51,905 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-01 20:26:52,278 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-03 13:30:45,913 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for mustafa.khan
+2023-11-03 13:30:46,115 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_daily_feedback_reminder for mustafa.khan
+2023-11-03 13:30:47,807 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_daily_feedback_reminder for mustafa.khan
+2023-11-03 13:30:47,826 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for mustafa.khan
+2023-11-03 13:30:47,990 INFO scheduler Scheduled Job Start: erpnext.non_profit.doctype.membership.membership.set_expired_status for mustafa.khan
+2023-11-03 13:30:48,004 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for mustafa.khan
+2023-11-03 13:30:48,531 INFO scheduler Scheduled Job Complete: erpnext.non_profit.doctype.membership.membership.set_expired_status for mustafa.khan
+2023-11-03 13:30:48,697 INFO scheduler Scheduled Job Complete: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for mustafa.khan
+2023-11-03 13:30:48,772 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.process_statement_of_accounts.process_statement_of_accounts.send_auto_email for mustafa.khan
+2023-11-03 13:30:48,824 DEBUG scheduler Queued events for site mustafa.khan
+2023-11-03 13:30:48,869 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for mustafa.khan
+2023-11-03 13:30:49,633 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for mustafa.khan
+2023-11-03 13:30:49,762 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.process_statement_of_accounts.process_statement_of_accounts.send_auto_email for mustafa.khan
+2023-11-03 13:30:49,842 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.lead.lead.daily_open_lead for mustafa.khan
+2023-11-03 13:30:49,978 INFO scheduler Scheduled Job Start: erpnext.buying.doctype.supplier_quotation.supplier_quotation.set_expired_status for mustafa.khan
+2023-11-03 13:30:50,868 INFO scheduler Scheduled Job Complete: erpnext.buying.doctype.supplier_quotation.supplier_quotation.set_expired_status for mustafa.khan
+2023-11-03 13:30:50,970 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.lead.lead.daily_open_lead for mustafa.khan
+2023-11-03 13:30:51,053 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.update_appointment_status for mustafa.khan
+2023-11-03 13:30:51,147 INFO scheduler Scheduled Job Start: erpnext.loan_management.doctype.process_loan_interest_accrual.process_loan_interest_accrual.process_loan_interest_accrual_for_term_loans for mustafa.khan
+2023-11-03 13:30:51,510 INFO scheduler Scheduled Job Failed: erpnext.healthcare.doctype.patient_appointment.patient_appointment.update_appointment_status for mustafa.khan
+2023-11-03 13:30:51,692 INFO scheduler Scheduled Job Start: erpnext.selling.doctype.quotation.quotation.set_expired_status for mustafa.khan
+2023-11-03 13:30:51,745 INFO scheduler Scheduled Job Complete: erpnext.loan_management.doctype.process_loan_interest_accrual.process_loan_interest_accrual.process_loan_interest_accrual_for_term_loans for mustafa.khan
+2023-11-03 13:30:51,925 INFO scheduler Scheduled Job Start: erpnext.loan_management.doctype.process_loan_security_shortfall.process_loan_security_shortfall.create_process_loan_security_shortfall for mustafa.khan
+2023-11-03 13:30:52,308 INFO scheduler Scheduled Job Complete: erpnext.selling.doctype.quotation.quotation.set_expired_status for mustafa.khan
+2023-11-03 13:30:52,356 INFO scheduler Scheduled Job Complete: erpnext.loan_management.doctype.process_loan_security_shortfall.process_loan_security_shortfall.create_process_loan_security_shortfall for mustafa.khan
+2023-11-03 13:30:52,484 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.email_campaign.email_campaign.set_email_campaign_status for mustafa.khan
+2023-11-03 13:30:52,511 INFO scheduler Scheduled Job Start: erpnext.hr.utils.allocate_earned_leaves for mustafa.khan
+2023-11-03 13:30:53,042 INFO scheduler Scheduled Job Complete: erpnext.hr.utils.allocate_earned_leaves for mustafa.khan
+2023-11-03 13:30:53,058 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.email_campaign.email_campaign.set_email_campaign_status for mustafa.khan
+2023-11-03 13:30:53,211 INFO scheduler Scheduled Job Start: erpnext.hr.utils.generate_leave_encashment for mustafa.khan
+2023-11-03 13:30:53,232 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.email_campaign.email_campaign.send_email_to_leads_or_contacts for mustafa.khan
+2023-11-03 13:30:53,745 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.email_campaign.email_campaign.send_email_to_leads_or_contacts for mustafa.khan
+2023-11-03 13:30:53,789 INFO scheduler Scheduled Job Complete: erpnext.hr.utils.generate_leave_encashment for mustafa.khan
+2023-11-03 13:30:53,922 INFO scheduler Scheduled Job Start: erpnext.support.doctype.service_level_agreement.service_level_agreement.check_agreement_status for mustafa.khan
+2023-11-03 13:30:53,963 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.leave_ledger_entry.leave_ledger_entry.process_expired_allocation for mustafa.khan
+2023-11-03 13:30:54,413 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.leave_ledger_entry.leave_ledger_entry.process_expired_allocation for mustafa.khan
+2023-11-03 13:30:54,500 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.service_level_agreement.service_level_agreement.check_agreement_status for mustafa.khan
+2023-11-03 13:30:54,570 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_tool.bom_update_tool.auto_update_latest_price_in_all_boms for mustafa.khan
+2023-11-03 13:30:54,657 INFO scheduler Scheduled Job Start: erpnext.quality_management.doctype.quality_review.quality_review.review for mustafa.khan
+2023-11-03 13:30:55,101 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_tool.bom_update_tool.auto_update_latest_price_in_all_boms for mustafa.khan
+2023-11-03 13:30:55,243 INFO scheduler Scheduled Job Complete: erpnext.quality_management.doctype.quality_review.quality_review.review for mustafa.khan
+2023-11-03 13:30:55,340 INFO scheduler Scheduled Job Start: erpnext.setup.doctype.email_digest.email_digest.send for mustafa.khan
+2023-11-03 13:30:55,449 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.send_project_status_email_to_users for mustafa.khan
+2023-11-03 13:30:56,480 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.send_project_status_email_to_users for mustafa.khan
+2023-11-03 13:30:56,559 INFO scheduler Scheduled Job Failed: erpnext.setup.doctype.email_digest.email_digest.send for mustafa.khan
+2023-11-03 13:30:56,714 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.update_project_sales_billing for mustafa.khan
+2023-11-03 13:30:56,798 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_drive.google_drive.daily_backup for mustafa.khan
+2023-11-03 13:30:57,641 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.update_project_sales_billing for mustafa.khan
+2023-11-03 13:30:57,994 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.contract.contract.update_status_for_contracts for mustafa.khan
+2023-11-03 13:30:58,242 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_drive.google_drive.daily_backup for mustafa.khan
+2023-11-03 13:30:58,569 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for mustafa.khan
+2023-11-03 13:30:58,737 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.contract.contract.update_status_for_contracts for mustafa.khan
+2023-11-03 13:30:58,933 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.asset.make_post_gl_entry for mustafa.khan
+2023-11-03 13:30:59,827 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.asset.make_post_gl_entry for mustafa.khan
+2023-11-03 13:31:00,016 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.asset.update_maintenance_status for mustafa.khan
+2023-11-03 13:31:00,515 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for mustafa.khan
+2023-11-03 13:31:00,701 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for mustafa.khan
+2023-11-03 13:31:00,864 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.asset.update_maintenance_status for mustafa.khan
+2023-11-03 13:31:01,059 INFO scheduler Scheduled Job Start: erpnext.setup.doctype.company.company.cache_companies_monthly_sales_history for mustafa.khan
+2023-11-03 13:31:01,513 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for mustafa.khan
+2023-11-03 13:31:01,685 INFO scheduler Scheduled Job Start: frappe.utils.change_log.check_for_update for mustafa.khan
+2023-11-03 13:31:01,705 INFO scheduler Scheduled Job Complete: erpnext.setup.doctype.company.company.cache_companies_monthly_sales_history for mustafa.khan
+2023-11-03 13:31:01,840 INFO scheduler Scheduled Job Start: erpnext.buying.doctype.supplier_scorecard.supplier_scorecard.refresh_scorecards for mustafa.khan
+2023-11-03 13:31:02,287 INFO scheduler Scheduled Job Complete: erpnext.buying.doctype.supplier_scorecard.supplier_scorecard.refresh_scorecards for mustafa.khan
+2023-11-03 13:31:02,464 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.serial_no.serial_no.update_maintenance_status for mustafa.khan
+2023-11-03 13:31:02,988 INFO scheduler Scheduled Job Complete: erpnext.stock.doctype.serial_no.serial_no.update_maintenance_status for mustafa.khan
+2023-11-03 13:31:03,118 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.send_summary for mustafa.khan
+2023-11-03 13:31:03,544 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.send_summary for mustafa.khan
+2023-11-03 13:31:03,682 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.depreciation.post_depreciation_entries for mustafa.khan
+2023-11-03 13:31:04,103 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.depreciation.post_depreciation_entries for mustafa.khan
+2023-11-03 13:31:04,328 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.task.task.set_tasks_as_overdue for mustafa.khan
+2023-11-03 13:31:04,435 INFO scheduler Scheduled Job Complete: frappe.utils.change_log.check_for_update for mustafa.khan
+2023-11-03 13:31:04,693 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for mustafa.khan
+2023-11-03 13:31:05,093 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.task.task.set_tasks_as_overdue for mustafa.khan
+2023-11-03 13:31:05,396 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.employee.employee_reminders.send_birthday_reminders for mustafa.khan
+2023-11-03 13:31:05,992 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for mustafa.khan
+2023-11-03 13:31:06,001 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.employee.employee_reminders.send_birthday_reminders for mustafa.khan
+2023-11-03 13:31:06,203 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.employee.employee_reminders.send_work_anniversary_reminders for mustafa.khan
+2023-11-03 13:31:07,492 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.employee.employee_reminders.send_work_anniversary_reminders for mustafa.khan
+2023-11-03 13:31:07,832 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_fiscal_year for mustafa.khan
+2023-11-03 13:31:08,622 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_fiscal_year for mustafa.khan
+2023-11-03 13:31:08,814 INFO scheduler Scheduled Job Start: erpnext.controllers.accounts_controller.update_invoice_status for mustafa.khan
+2023-11-03 13:31:09,515 INFO scheduler Scheduled Job Complete: erpnext.controllers.accounts_controller.update_invoice_status for mustafa.khan
+2023-11-03 13:31:09,803 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.opportunity.opportunity.auto_close_opportunity for mustafa.khan
+2023-11-03 13:31:10,536 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.opportunity.opportunity.auto_close_opportunity for mustafa.khan
+2023-11-03 13:31:10,713 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.auto_close_tickets for mustafa.khan
+2023-11-03 13:31:11,152 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.auto_close_tickets for mustafa.khan
+2023-11-03 13:31:11,323 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for mustafa.khan
+2023-11-03 13:31:12,222 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for mustafa.khan
+2023-11-03 13:31:12,387 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for mustafa.khan
+2023-11-03 13:31:12,878 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for mustafa.khan
+2023-11-03 13:31:13,009 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for mustafa.khan
+2023-11-03 13:31:13,521 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for mustafa.khan
+2023-11-03 13:31:13,646 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for mustafa.khan
+2023-11-03 13:31:14,262 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for mustafa.khan
+2023-11-03 13:31:14,452 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for mustafa.khan
+2023-11-03 13:31:15,102 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for mustafa.khan
+2023-11-03 13:31:15,264 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for mustafa.khan
+2023-11-03 13:31:15,747 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for mustafa.khan
+2023-11-03 13:31:15,997 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for mustafa.khan
+2023-11-03 13:31:16,635 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for mustafa.khan
+2023-11-03 13:31:16,821 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mustafa.khan
+2023-11-03 13:31:17,584 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mustafa.khan
+2023-11-03 13:31:17,748 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for mustafa.khan
+2023-11-03 13:31:18,109 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for mustafa.khan
+2023-11-03 13:31:18,249 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mustafa.khan
+2023-11-03 13:31:18,681 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mustafa.khan
+2023-11-03 13:31:18,792 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for mustafa.khan
+2023-11-03 13:31:19,311 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for mustafa.khan
+2023-11-03 13:31:19,514 INFO scheduler Scheduled Job Start: erpnext.stock.reorder_item.reorder_item for mustafa.khan
+2023-11-03 13:31:20,102 INFO scheduler Scheduled Job Complete: erpnext.stock.reorder_item.reorder_item for mustafa.khan
+2023-11-03 13:31:20,346 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for mustafa.khan
+2023-11-03 13:31:21,366 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for mustafa.khan
+2023-11-03 13:31:21,582 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for mustafa.khan
+2023-11-03 13:31:23,122 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for mustafa.khan
+2023-11-03 13:31:23,423 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for mustafa.khan
+2023-11-03 13:31:24,121 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for mustafa.khan
+2023-11-03 13:31:24,323 INFO scheduler Scheduled Job Start: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for mustafa.khan
+2023-11-03 13:31:24,906 INFO scheduler Scheduled Job Complete: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for mustafa.khan
+2023-11-03 13:31:25,127 INFO scheduler Scheduled Job Start: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for mustafa.khan
+2023-11-03 13:31:25,648 INFO scheduler Scheduled Job Complete: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for mustafa.khan
+2023-11-03 13:31:25,818 INFO scheduler Scheduled Job Start: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for mustafa.khan
+2023-11-03 13:31:26,330 INFO scheduler Scheduled Job Complete: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for mustafa.khan
+2023-11-03 13:31:26,498 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for mustafa.khan
+2023-11-03 13:31:27,087 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for mustafa.khan
+2023-11-03 13:31:27,314 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for mustafa.khan
+2023-11-03 13:31:27,868 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for mustafa.khan
+2023-11-03 13:31:28,090 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_contacts.google_contacts.sync for mustafa.khan
+2023-11-03 13:31:29,069 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_contacts.google_contacts.sync for mustafa.khan
+2023-11-03 13:31:29,313 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for mustafa.khan
+2023-11-03 13:31:29,737 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for mustafa.khan
+2023-11-03 13:31:29,968 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_daily_updates for mustafa.khan
+2023-11-03 13:31:30,673 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_daily_updates for mustafa.khan
+2023-11-03 13:31:30,848 INFO scheduler Scheduled Job Start: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for mustafa.khan
+2023-11-03 13:31:31,276 INFO scheduler Scheduled Job Complete: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for mustafa.khan
+2023-11-03 13:31:31,441 INFO scheduler Scheduled Job Start: frappe.email.doctype.notification.notification.trigger_daily_alerts for mustafa.khan
+2023-11-03 13:31:31,965 INFO scheduler Scheduled Job Complete: frappe.email.doctype.notification.notification.trigger_daily_alerts for mustafa.khan
+2023-11-03 13:31:32,143 INFO scheduler Scheduled Job Start: frappe.sessions.clear_expired_sessions for mustafa.khan
+2023-11-03 13:31:32,836 INFO scheduler Scheduled Job Complete: frappe.sessions.clear_expired_sessions for mustafa.khan
+2023-11-03 13:31:33,012 INFO scheduler Scheduled Job Start: frappe.desk.doctype.event.event.send_event_digest for mustafa.khan
+2023-11-03 13:31:33,468 INFO scheduler Scheduled Job Complete: frappe.desk.doctype.event.event.send_event_digest for mustafa.khan
+2023-11-03 13:31:33,659 INFO scheduler Scheduled Job Start: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for mustafa.khan
+2023-11-03 13:31:34,092 INFO scheduler Scheduled Job Complete: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for mustafa.khan
+2023-11-03 13:31:34,267 INFO scheduler Scheduled Job Start: frappe.desk.notifications.clear_notifications for mustafa.khan
+2023-11-03 13:31:34,976 INFO scheduler Scheduled Job Complete: frappe.desk.notifications.clear_notifications for mustafa.khan
+2023-11-03 13:31:35,287 INFO scheduler Scheduled Job Start: frappe.email.queue.set_expiry_for_email_queue for mustafa.khan
+2023-11-03 13:31:35,791 INFO scheduler Scheduled Job Complete: frappe.email.queue.set_expiry_for_email_queue for mustafa.khan
+2023-11-03 13:31:35,934 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for mustafa.khan
+2023-11-03 13:31:36,427 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for mustafa.khan
+2023-11-03 13:31:36,557 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for mustafa.khan
+2023-11-03 13:31:37,293 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for mustafa.khan
+2023-11-03 13:31:37,461 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for mustafa.khan
+2023-11-03 13:31:37,917 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for mustafa.khan
+2023-11-03 13:31:38,064 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for mustafa.khan
+2023-11-03 13:31:38,461 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for mustafa.khan
+2023-11-03 13:31:38,634 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for mustafa.khan
+2023-11-03 13:31:39,028 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for mustafa.khan
+2023-11-03 13:31:39,174 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for mustafa.khan
+2023-11-03 13:31:39,565 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for mustafa.khan
+2023-11-03 13:31:39,706 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for mustafa.khan
+2023-11-03 13:31:40,051 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for mustafa.khan
+2023-11-03 13:31:40,184 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for mustafa.khan
+2023-11-03 13:31:40,519 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for mustafa.khan
+2023-11-03 13:31:40,656 INFO scheduler Scheduled Job Start: frappe.monitor.flush for mustafa.khan
+2023-11-03 13:31:40,918 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for mustafa.khan
+2023-11-03 13:31:41,038 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for mustafa.khan
+2023-11-03 13:31:41,300 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for mustafa.khan
+2023-11-03 13:31:41,434 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mustafa.khan

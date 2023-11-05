@@ -1,0 +1,307 @@
+2023-11-01 16:18:47,240 DEBUG cd frappe-bench && python3 -m venv env
+2023-11-01 16:18:52,853 DEBUG cd frappe-bench && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-11-01 16:18:57,404 DEBUG cd frappe-bench && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-11-01 16:18:59,814 LOG Getting frappe
+2023-11-01 16:18:59,815 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-13 --depth 1 --origin upstream
+2023-11-01 16:19:27,840 LOG Installing frappe
+2023-11-01 16:19:27,841 DEBUG cd /home/mustafa/frappe-bench && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/mustafa/frappe-bench/apps/frappe 
+2023-11-01 16:22:37,260 DEBUG cd /home/mustafa/frappe-bench/apps/frappe && yarn install
+2023-11-01 16:24:52,923 DEBUG cd /home/mustafa/frappe-bench && sudo supervisorctl restart frappe:
+2023-11-01 16:24:53,277 WARNING cd /home/mustafa/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-11-01 16:24:53,277 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-11-01 16:24:53,281 DEBUG cd frappe-bench && bench build
+2023-11-01 16:24:53,454 INFO /usr/local/bin/bench build
+2023-11-01 16:26:32,661 LOG setting up backups
+2023-11-01 16:26:32,705 LOG backups were set up
+2023-11-01 16:26:32,705 INFO Bench frappe-bench initialized
+2023-11-01 16:27:23,901 INFO /usr/local/bin/bench new-site mustafa.khan
+2023-11-01 16:29:21,345 INFO /usr/local/bin/bench get-app --branch version-13 erpnext
+2023-11-01 16:29:21,879 LOG Getting erpnext
+2023-11-01 16:29:21,879 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-13 --depth 1 --origin upstream
+2023-11-01 16:29:32,671 LOG Installing erpnext
+2023-11-01 16:29:33,054 DEBUG cd /home/mustafa/frappe-bench && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/mustafa/frappe-bench/apps/erpnext 
+2023-11-01 16:30:57,914 DEBUG cd /home/mustafa/frappe-bench/apps/erpnext && yarn install
+2023-11-01 16:31:02,954 DEBUG bench build --app erpnext
+2023-11-01 16:31:03,136 INFO /usr/local/bin/bench build --app erpnext
+2023-11-01 16:31:32,063 DEBUG cd /home/mustafa/frappe-bench && sudo supervisorctl restart frappe:
+2023-11-01 16:31:32,416 WARNING cd /home/mustafa/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-11-01 16:31:32,416 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-11-01 16:35:53,608 INFO /usr/local/bin/bench --site mustafa.khan install-app erpnext
+2023-11-01 16:39:06,557 INFO /usr/local/bin/bench --site mustafa.khan enable-scheduler
+2023-11-01 16:39:32,883 INFO /usr/local/bin/bench --site mustafa.khan set-maintenance-mode off
+2023-11-01 16:39:52,886 INFO /usr/local/bin/bench setup production mustafa
+2023-11-01 16:39:52,898 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2023-11-01 16:40:49,896 DEBUG bench setup role fail2ban
+2023-11-01 16:40:50,089 INFO /usr/local/bin/bench setup role fail2ban
+2023-11-01 16:41:22,708 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 16:41:22,772 DEBUG bench setup role nginx
+2023-11-01 16:41:22,945 INFO /usr/local/bin/bench setup role nginx
+2023-11-01 16:41:49,596 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 16:41:49,651 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-11-01 16:41:49,651 LOG Updated supervisord.conf: 'chown' changed from '' to 'mustafa:mustafa'
+2023-11-01 16:41:49,765 DEBUG sudo /usr/sbin/nginx -t
+2023-11-01 16:41:49,811 DEBUG sudo systemctl reload nginx
+2023-11-01 16:41:50,178 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 16:42:58,975 INFO /usr/local/bin/bench setup production mustafa
+2023-11-01 16:42:58,986 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-11-01 16:42:58,986 LOG Updated supervisord.conf: 'chown' changed from '' to 'mustafa:mustafa'
+2023-11-01 16:43:12,998 DEBUG /usr/bin/supervisorctl reread
+2023-11-01 16:43:13,361 DEBUG /usr/bin/supervisorctl update
+2023-11-01 16:43:13,820 DEBUG sudo /usr/sbin/nginx -t
+2023-11-01 16:43:13,989 DEBUG sudo systemctl reload nginx
+2023-11-01 16:43:14,242 INFO /usr/local/bin/bench worker --queue short
+2023-11-01 16:43:14,376 INFO /usr/local/bin/bench worker --queue default
+2023-11-01 16:43:14,377 INFO /usr/local/bin/bench worker --queue long
+2023-11-01 16:43:14,621 INFO /usr/local/bin/bench schedule
+2023-11-01 16:43:18,576 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 18:00:01,755 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-01 19:29:14,203 INFO /usr/local/bin/bench start
+2023-11-01 19:29:44,906 INFO /usr/local/bin/bench start
+2023-11-01 19:30:52,940 INFO /usr/local/bin/bench set-nginx-port mustafa.khan 81
+2023-11-01 19:30:57,415 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 19:31:12,639 INFO /usr/local/bin/bench setup nginx
+2023-11-01 19:31:14,606 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 19:31:18,917 INFO /usr/local/bin/bench start
+2023-11-01 19:31:57,166 INFO /usr/local/bin/bench use mustafa.khan
+2023-11-01 19:32:05,442 INFO /usr/local/bin/bench start
+2023-11-01 19:34:04,866 INFO /usr/local/bin/bench start
+2023-11-01 19:44:29,223 INFO /usr/local/bin/bench start
+2023-11-01 19:44:55,359 INFO /usr/local/bin/bench start
+2023-11-01 19:45:30,028 INFO /usr/local/bin/bench start
+2023-11-01 19:45:38,901 INFO /usr/local/bin/bench start
+2023-11-01 19:47:56,280 INFO /usr/local/bin/bench start
+2023-11-01 19:47:56,810 INFO /usr/local/bin/bench watch
+2023-11-01 19:47:56,873 INFO /usr/local/bin/bench serve --port 8000
+2023-11-01 19:47:56,945 INFO /usr/local/bin/bench worker
+2023-11-01 19:47:56,974 INFO /usr/local/bin/bench schedule
+2023-11-01 19:54:34,250 INFO /usr/local/bin/bench new-app coderarena
+2023-11-01 19:54:34,264 LOG creating new app coderarena
+2023-11-01 19:55:19,253 LOG Installing coderarena
+2023-11-01 19:55:19,254 DEBUG cd /home/mustafa/frappe-bench && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/mustafa/frappe-bench/apps/coderarena 
+2023-11-01 19:55:22,858 DEBUG bench build --app coderarena
+2023-11-01 19:55:23,033 INFO /usr/local/bin/bench build --app coderarena
+2023-11-01 19:55:28,806 DEBUG cd /home/mustafa/frappe-bench && supervisorctl restart frappe:
+2023-11-01 19:55:29,103 WARNING cd /home/mustafa/frappe-bench && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 19:55:29,103 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-11-01 19:55:29,758 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 19:57:23,132 INFO /usr/local/bin/bench new-app coderarena
+2023-11-01 19:57:23,139 LOG creating new app coderarena
+2023-11-01 19:57:51,757 LOG Installing coderarena
+2023-11-01 19:57:51,758 DEBUG cd /home/mustafa/frappe-bench && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/mustafa/frappe-bench/apps/coderarena 
+2023-11-01 19:57:54,702 DEBUG bench build --app coderarena
+2023-11-01 19:57:54,872 INFO /usr/local/bin/bench build --app coderarena
+2023-11-01 19:57:58,181 DEBUG cd /home/mustafa/frappe-bench && supervisorctl restart frappe:
+2023-11-01 19:57:58,484 WARNING cd /home/mustafa/frappe-bench && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 19:57:58,484 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-11-01 19:57:58,735 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 19:58:12,286 INFO /usr/local/bin/bench new-app coderarena
+2023-11-01 19:58:12,296 LOG creating new app coderarena
+2023-11-01 19:58:43,920 LOG Installing coderarena
+2023-11-01 19:58:43,921 DEBUG cd /home/mustafa/frappe-bench && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/mustafa/frappe-bench/apps/coderarena 
+2023-11-01 19:58:46,838 DEBUG bench build --app coderarena
+2023-11-01 19:58:47,005 INFO /usr/local/bin/bench build --app coderarena
+2023-11-01 19:58:51,077 DEBUG cd /home/mustafa/frappe-bench && supervisorctl restart frappe:
+2023-11-01 19:58:51,386 WARNING cd /home/mustafa/frappe-bench && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 19:58:51,386 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-11-01 19:58:51,643 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:00:35,374 INFO /usr/local/bin/bench new-app coderarena
+2023-11-01 20:00:35,381 LOG creating new app coderarena
+2023-11-01 20:01:02,232 LOG Installing coderarena
+2023-11-01 20:01:02,233 DEBUG cd /home/mustafa/frappe-bench && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/mustafa/frappe-bench/apps/coderarena 
+2023-11-01 20:01:04,925 DEBUG bench build --app coderarena
+2023-11-01 20:01:05,104 INFO /usr/local/bin/bench build --app coderarena
+2023-11-01 20:01:08,915 DEBUG cd /home/mustafa/frappe-bench && supervisorctl restart frappe:
+2023-11-01 20:01:09,273 WARNING cd /home/mustafa/frappe-bench && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 20:01:09,274 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-11-01 20:01:09,511 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:01:14,285 INFO /usr/local/bin/bench restart
+2023-11-01 20:01:14,620 DEBUG cd /home/mustafa/frappe-bench && supervisorctl restart frappe:
+2023-11-01 20:01:14,931 WARNING cd /home/mustafa/frappe-bench && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 20:01:14,932 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-11-01 20:01:15,290 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:02:10,861 INFO /usr/local/bin/bench start
+2023-11-01 20:02:11,422 INFO /usr/local/bin/bench watch
+2023-11-01 20:02:11,448 INFO /usr/local/bin/bench worker
+2023-11-01 20:02:11,559 INFO /usr/local/bin/bench serve --port 8000
+2023-11-01 20:02:11,947 INFO /usr/local/bin/bench schedule
+2023-11-01 20:02:32,424 INFO /usr/local/bin/bench new-app coderarena
+2023-11-01 20:02:32,431 LOG creating new app coderarena
+2023-11-01 20:03:00,421 LOG Installing coderarena
+2023-11-01 20:03:00,423 DEBUG cd /home/mustafa/frappe-bench/logs && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/mustafa/frappe-bench/apps/coderarena 
+2023-11-01 20:03:03,770 DEBUG bench build --app coderarena
+2023-11-01 20:03:03,961 INFO /usr/local/bin/bench build --app coderarena
+2023-11-01 20:03:08,266 DEBUG cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe:
+2023-11-01 20:03:08,634 WARNING cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 20:03:08,634 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-11-01 20:03:08,929 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:03:17,176 INFO /usr/local/bin/bench restart
+2023-11-01 20:03:17,513 DEBUG cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe:
+2023-11-01 20:03:17,832 WARNING cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 20:03:17,832 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-11-01 20:03:18,208 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:04:22,678 INFO /usr/local/bin/bench restart
+2023-11-01 20:04:23,044 DEBUG cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe:
+2023-11-01 20:04:23,395 WARNING cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 20:04:23,396 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-11-01 20:04:23,771 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:05:35,334 INFO /usr/local/bin/bench restart
+2023-11-01 20:05:35,637 DEBUG cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe:
+2023-11-01 20:05:35,975 WARNING cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 20:05:35,975 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-11-01 20:05:36,297 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:05:47,204 INFO /usr/local/bin/bench restart
+2023-11-01 20:05:47,540 DEBUG cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe:
+2023-11-01 20:05:47,835 WARNING cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 20:05:47,835 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-11-01 20:05:48,167 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:06:22,228 INFO /usr/local/bin/bench restart
+2023-11-01 20:06:22,560 DEBUG cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe:
+2023-11-01 20:06:22,853 WARNING cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 20:06:22,853 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-11-01 20:06:23,171 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:18:54,585 INFO /usr/local/bin/bench worker --queue default
+2023-11-01 20:18:54,797 INFO /usr/local/bin/bench schedule
+2023-11-01 20:18:55,157 INFO /usr/local/bin/bench worker --queue short
+2023-11-01 20:18:55,361 INFO /usr/local/bin/bench worker --queue long
+2023-11-01 20:18:57,704 INFO /usr/local/bin/bench restart
+2023-11-01 20:18:58,022 DEBUG cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe:
+2023-11-01 20:18:58,389 WARNING cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 20:18:58,389 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-11-01 20:18:58,902 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:20:11,186 INFO /usr/local/bin/bench restart
+2023-11-01 20:20:11,501 DEBUG cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe:
+2023-11-01 20:20:11,837 WARNING cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe: executed with exit code 1
+2023-11-01 20:20:11,838 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-11-01 20:20:12,150 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:20:27,849 INFO /usr/local/bin/bench worker --queue short
+2023-11-01 20:20:28,042 INFO /usr/local/bin/bench worker --queue default
+2023-11-01 20:20:28,066 INFO /usr/local/bin/bench schedule
+2023-11-01 20:20:28,071 INFO /usr/local/bin/bench worker --queue long
+2023-11-01 20:20:30,521 INFO /usr/local/bin/bench restart
+2023-11-01 20:20:30,862 DEBUG cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-11-01 20:20:35,152 INFO /usr/local/bin/bench schedule
+2023-11-01 20:20:35,155 INFO /usr/local/bin/bench worker --queue default
+2023-11-01 20:20:35,659 INFO /usr/local/bin/bench worker --queue long
+2023-11-01 20:20:35,771 INFO /usr/local/bin/bench worker --queue short
+2023-11-01 20:20:37,570 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:22:47,620 INFO /usr/local/bin/bench new-app coderarena
+2023-11-01 20:22:47,627 LOG creating new app coderarena
+2023-11-01 20:23:22,117 LOG Installing coderarena
+2023-11-01 20:23:22,118 DEBUG cd /home/mustafa/frappe-bench/logs && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/mustafa/frappe-bench/apps/coderarena 
+2023-11-01 20:23:24,964 DEBUG bench build --app coderarena
+2023-11-01 20:23:25,134 INFO /usr/local/bin/bench build --app coderarena
+2023-11-01 20:23:28,521 DEBUG cd /home/mustafa/frappe-bench/logs && supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-11-01 20:23:32,579 INFO /usr/local/bin/bench schedule
+2023-11-01 20:23:32,618 INFO /usr/local/bin/bench worker --queue long
+2023-11-01 20:23:32,731 INFO /usr/local/bin/bench worker --queue short
+2023-11-01 20:23:32,746 INFO /usr/local/bin/bench worker --queue default
+2023-11-01 20:23:34,817 INFO A newer version of bench is available: 5.16.0 → 5.18.0
+2023-11-01 20:23:55,087 INFO /usr/local/bin/bench --site mustafa.khan install-app coderarena
+2023-11-01 20:24:11,060 INFO /usr/local/bin/bench start
+2023-11-01 20:24:11,606 INFO /usr/local/bin/bench worker
+2023-11-01 20:24:11,699 INFO /usr/local/bin/bench schedule
+2023-11-01 20:24:11,718 INFO /usr/local/bin/bench serve --port 8000
+2023-11-01 20:24:11,768 INFO /usr/local/bin/bench watch
+2023-11-01 20:24:48,713 INFO /usr/local/bin/bench start
+2023-11-01 20:24:49,218 INFO /usr/local/bin/bench serve --port 8000
+2023-11-01 20:24:49,352 INFO /usr/local/bin/bench schedule
+2023-11-01 20:24:49,367 INFO /usr/local/bin/bench watch
+2023-11-01 20:24:49,392 INFO /usr/local/bin/bench worker
+2023-11-01 20:25:50,264 INFO /usr/local/bin/bench start
+2023-11-01 20:26:18,227 INFO /usr/local/bin/bench start
+2023-11-01 20:26:23,565 INFO /usr/local/bin/bench start
+2023-11-01 20:26:46,659 INFO /usr/local/bin/bench start
+2023-11-03 13:29:30,680 INFO /usr/local/bin/bench worker --queue default
+2023-11-03 13:29:30,684 INFO /usr/local/bin/bench worker --queue short
+2023-11-03 13:29:30,685 INFO /usr/local/bin/bench schedule
+2023-11-03 13:29:30,709 INFO /usr/local/bin/bench worker --queue long
+2023-11-03 13:34:59,188 INFO /usr/local/bin/bench start
+2023-11-03 13:35:13,114 INFO /usr/local/bin/bench start
+2023-11-03 13:35:43,553 INFO /usr/local/bin/bench start
+2023-11-03 13:37:28,782 INFO /usr/local/bin/bench start
+2023-11-03 16:58:00,472 INFO /usr/local/bin/bench start
+2023-11-03 16:58:26,349 INFO /usr/local/bin/bench start
+2023-11-03 17:11:23,594 INFO /usr/local/bin/bench start
+2023-11-03 17:11:24,226 INFO /usr/local/bin/bench watch
+2023-11-03 17:11:24,397 INFO /usr/local/bin/bench worker
+2023-11-03 17:11:24,409 INFO /usr/local/bin/bench schedule
+2023-11-03 17:11:24,855 INFO /usr/local/bin/bench serve --port 8000
+2023-11-03 17:26:23,435 INFO /usr/local/bin/bench set-config -g developer_mode 1
+2023-11-03 17:27:20,065 INFO /usr/local/bin/bench --site mustafa.khan clear-cache
+2023-11-03 17:27:27,451 INFO /usr/local/bin/bench setup requirements --dev
+2023-11-03 17:27:30,317 INFO A newer version of bench is available: 5.16.0 → 5.19.0
+2023-11-03 17:27:42,108 INFO /usr/local/bin/bench restart
+2023-11-03 17:27:42,886 DEBUG cd /home/mustafa/frappe-bench/sites/mustafa.khan && supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-11-03 17:27:43,594 INFO /usr/local/bin/bench schedule
+2023-11-03 17:27:43,599 INFO /usr/local/bin/bench worker --queue long
+2023-11-03 17:27:43,849 INFO /usr/local/bin/bench worker --queue short
+2023-11-03 17:27:43,864 INFO /usr/local/bin/bench worker --queue default
+2023-11-03 17:27:46,657 INFO A newer version of bench is available: 5.16.0 → 5.19.0
+2023-11-03 17:28:00,962 INFO /usr/local/bin/bench start
+2023-11-03 17:28:01,583 INFO /usr/local/bin/bench worker
+2023-11-03 17:28:01,721 INFO /usr/local/bin/bench serve --port 8000
+2023-11-03 17:28:01,751 INFO /usr/local/bin/bench schedule
+2023-11-03 17:28:01,765 INFO /usr/local/bin/bench watch
+2023-11-03 17:29:04,622 INFO /usr/local/bin/bench start
+2023-11-03 17:29:05,200 INFO /usr/local/bin/bench watch
+2023-11-03 17:29:05,335 INFO /usr/local/bin/bench schedule
+2023-11-03 17:29:05,335 INFO /usr/local/bin/bench worker
+2023-11-03 17:29:05,364 INFO /usr/local/bin/bench serve --port 8000
+2023-11-03 17:29:49,762 INFO /usr/local/bin/bench --site mustafa.khan clear-cache
+2023-11-03 17:33:58,025 INFO /usr/local/bin/bench start
+2023-11-03 17:33:58,615 INFO /usr/local/bin/bench serve --port 8000
+2023-11-03 17:33:58,740 INFO /usr/local/bin/bench schedule
+2023-11-03 17:33:58,744 INFO /usr/local/bin/bench worker
+2023-11-03 17:33:58,768 INFO /usr/local/bin/bench watch
+2023-11-03 17:38:30,238 INFO /usr/local/bin/bench start
+2023-11-03 17:38:30,878 INFO /usr/local/bin/bench worker
+2023-11-03 17:38:30,909 INFO /usr/local/bin/bench schedule
+2023-11-03 17:38:30,998 INFO /usr/local/bin/bench serve --port 8000
+2023-11-03 17:38:31,036 INFO /usr/local/bin/bench watch
+2023-11-03 17:40:42,774 INFO /usr/local/bin/bench python
+2023-11-03 18:00:01,688 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-05 14:41:51,507 INFO /usr/local/bin/bench schedule
+2023-11-05 14:41:51,509 INFO /usr/local/bin/bench worker --queue default
+2023-11-05 14:41:51,510 INFO /usr/local/bin/bench worker --queue long
+2023-11-05 14:41:51,616 INFO /usr/local/bin/bench worker --queue short
+2023-11-05 15:01:36,890 INFO /usr/local/bin/bench start
+2023-11-05 15:03:17,370 INFO /usr/local/bin/bench start
+2023-11-05 15:03:48,492 INFO /usr/local/bin/bench start
+2023-11-05 15:03:49,401 INFO /usr/local/bin/bench worker
+2023-11-05 15:03:49,481 INFO /usr/local/bin/bench schedule
+2023-11-05 15:03:49,544 INFO /usr/local/bin/bench serve --port 8000
+2023-11-05 15:03:50,020 INFO /usr/local/bin/bench watch
+2023-11-05 15:08:18,496 INFO /usr/local/bin/bench u
+2023-11-05 15:13:11,482 INFO /usr/local/bin/bench new-app alansaridigital
+2023-11-05 15:13:11,492 LOG creating new app alansaridigital
+2023-11-05 15:14:43,772 LOG Installing alansaridigital
+2023-11-05 15:14:43,773 DEBUG cd /home/mustafa/frappe-bench && /home/mustafa/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/mustafa/frappe-bench/apps/alansaridigital 
+2023-11-05 15:14:49,518 DEBUG bench build --app alansaridigital
+2023-11-05 15:14:49,808 INFO /usr/local/bin/bench build --app alansaridigital
+2023-11-05 15:14:55,259 DEBUG cd /home/mustafa/frappe-bench && supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-11-05 15:14:56,031 INFO /usr/local/bin/bench worker --queue short
+2023-11-05 15:14:56,045 INFO /usr/local/bin/bench worker --queue default
+2023-11-05 15:14:56,277 INFO /usr/local/bin/bench schedule
+2023-11-05 15:14:56,302 INFO /usr/local/bin/bench worker --queue long
+2023-11-05 15:23:41,644 INFO A newer version of bench is available: 5.16.0 → 5.19.0
+2023-11-05 15:23:42,035 INFO /usr/local/bin/bench new-app alansaridigital
+2023-11-05 15:23:42,044 LOG creating new app alansaridigital
+2023-11-05 15:23:53,162 WARNING /usr/local/bin/bench new-app alansaridigital executed with exit code 1
+2023-11-05 15:24:48,004 INFO /usr/local/bin/bench --site mustafa.khan install-app alansaridigital
+2023-11-05 15:25:05,925 INFO /usr/local/bin/bench --site mustafa.khan clear-cache
+2023-11-05 15:25:15,091 INFO /usr/local/bin/bench start
+2023-11-05 15:25:16,051 INFO /usr/local/bin/bench worker
+2023-11-05 15:25:16,051 INFO /usr/local/bin/bench schedule
+2023-11-05 15:25:16,165 INFO /usr/local/bin/bench serve --port 8000
+2023-11-05 15:25:16,807 INFO /usr/local/bin/bench watch
+2023-11-05 15:25:56,421 INFO /usr/local/bin/bench start
+2023-11-05 15:25:57,342 INFO /usr/local/bin/bench watch
+2023-11-05 15:25:57,396 INFO /usr/local/bin/bench schedule
+2023-11-05 15:25:57,413 INFO /usr/local/bin/bench worker
+2023-11-05 15:25:58,036 INFO /usr/local/bin/bench serve --port 8000
+2023-11-05 15:26:40,295 INFO /usr/local/bin/bench start
+2023-11-05 15:26:41,125 INFO /usr/local/bin/bench worker
+2023-11-05 15:26:41,279 INFO /usr/local/bin/bench watch
+2023-11-05 15:26:41,279 INFO /usr/local/bin/bench serve --port 8000
+2023-11-05 15:26:41,295 INFO /usr/local/bin/bench schedule
+2023-11-05 18:00:02,097 INFO /usr/local/bin/bench --verbose --site all backup

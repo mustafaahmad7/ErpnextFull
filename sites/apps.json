@@ -1,0 +1,22 @@
+{
+    "coderarena": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "bcbceb8e17fc37301d634e485f63aa2d133a15f7",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 1,
+        "version": "0.0.1"
+    },
+    "alansaridigital": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "f908a779d73ac7341c1655332baa0810f410e976",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    }
+}

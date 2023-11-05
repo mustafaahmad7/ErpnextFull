@@ -1,0 +1,699 @@
+[2023-11-01 16:43:15 +0000] [24419] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 16:43:15 +0000] [24419] [INFO] Listening at: http://127.0.0.1:8000 (24419)
+[2023-11-01 16:43:15 +0000] [24419] [INFO] Using worker: sync
+[2023-11-01 16:43:16 +0000] [24485] [INFO] Booting worker with pid: 24485
+[2023-11-01 16:43:16 +0000] [24486] [INFO] Booting worker with pid: 24486
+[2023-11-01 16:43:16 +0000] [24488] [INFO] Booting worker with pid: 24488
+[2023-11-01 16:43:16 +0000] [24489] [INFO] Booting worker with pid: 24489
+[2023-11-01 16:43:16 +0000] [24490] [INFO] Booting worker with pid: 24490
+[2023-11-01 16:43:16 +0000] [24491] [INFO] Booting worker with pid: 24491
+[2023-11-01 16:43:16 +0000] [24493] [INFO] Booting worker with pid: 24493
+[2023-11-01 19:44:08 +0000] [24419] [INFO] Handling signal: term
+[2023-11-01 19:44:08 +0000] [24486] [INFO] Worker exiting (pid: 24486)
+[2023-11-01 19:44:08 +0000] [24485] [INFO] Worker exiting (pid: 24485)
+[2023-11-01 19:44:08 +0000] [24488] [INFO] Worker exiting (pid: 24488)
+[2023-11-01 19:44:08 +0000] [24490] [INFO] Worker exiting (pid: 24490)
+[2023-11-01 19:44:08 +0000] [24489] [INFO] Worker exiting (pid: 24489)
+[2023-11-01 19:44:08 +0000] [24493] [INFO] Worker exiting (pid: 24493)
+[2023-11-01 19:44:08 +0000] [24491] [INFO] Worker exiting (pid: 24491)
+[2023-11-01 19:44:09 +0000] [24419] [INFO] Shutting down: Master
+[2023-11-01 20:18:55 +0000] [46777] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:18:55 +0000] [46777] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:18:55 +0000] [46777] [ERROR] Retrying in 1 second.
+[2023-11-01 20:18:56 +0000] [46777] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:18:56 +0000] [46777] [ERROR] Retrying in 1 second.
+[2023-11-01 20:18:57 +0000] [46777] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:18:57 +0000] [46777] [ERROR] Retrying in 1 second.
+[2023-11-01 20:18:58 +0000] [46777] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:18:58 +0000] [46777] [ERROR] Retrying in 1 second.
+[2023-11-01 20:18:59 +0000] [46777] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:18:59 +0000] [46777] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:00 +0000] [46777] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:19:02 +0000] [46887] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:19:02 +0000] [46887] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:02 +0000] [46887] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:03 +0000] [46887] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:03 +0000] [46887] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:04 +0000] [46887] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:04 +0000] [46887] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:05 +0000] [46887] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:05 +0000] [46887] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:06 +0000] [46887] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:06 +0000] [46887] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:07 +0000] [46887] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:19:10 +0000] [46923] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:19:10 +0000] [46923] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:10 +0000] [46923] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:11 +0000] [46923] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:11 +0000] [46923] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:12 +0000] [46923] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:12 +0000] [46923] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:13 +0000] [46923] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:13 +0000] [46923] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:14 +0000] [46923] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:14 +0000] [46923] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:15 +0000] [46923] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:19:17 +0000] [46941] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:19:17 +0000] [46941] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:17 +0000] [46941] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:18 +0000] [46941] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:18 +0000] [46941] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:19 +0000] [46941] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:19 +0000] [46941] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:20 +0000] [46941] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:20 +0000] [46941] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:21 +0000] [46941] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:21 +0000] [46941] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:22 +0000] [46941] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:19:24 +0000] [47027] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:19:24 +0000] [47027] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:24 +0000] [47027] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:25 +0000] [47027] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:25 +0000] [47027] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:26 +0000] [47027] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:26 +0000] [47027] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:27 +0000] [47027] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:27 +0000] [47027] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:28 +0000] [47027] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:28 +0000] [47027] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:29 +0000] [47027] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:19:31 +0000] [47100] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:19:31 +0000] [47100] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:31 +0000] [47100] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:32 +0000] [47100] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:32 +0000] [47100] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:33 +0000] [47100] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:33 +0000] [47100] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:34 +0000] [47100] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:34 +0000] [47100] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:35 +0000] [47100] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:35 +0000] [47100] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:36 +0000] [47100] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:19:39 +0000] [47190] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:19:39 +0000] [47190] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:39 +0000] [47190] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:40 +0000] [47190] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:40 +0000] [47190] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:41 +0000] [47190] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:41 +0000] [47190] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:42 +0000] [47190] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:42 +0000] [47190] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:43 +0000] [47190] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:43 +0000] [47190] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:44 +0000] [47190] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:19:45 +0000] [47246] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:19:45 +0000] [47246] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:45 +0000] [47246] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:46 +0000] [47246] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:46 +0000] [47246] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:47 +0000] [47246] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:47 +0000] [47246] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:48 +0000] [47246] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:48 +0000] [47246] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:49 +0000] [47246] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:49 +0000] [47246] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:50 +0000] [47246] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:19:51 +0000] [47264] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:19:51 +0000] [47264] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:51 +0000] [47264] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:52 +0000] [47264] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:52 +0000] [47264] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:53 +0000] [47264] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:53 +0000] [47264] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:54 +0000] [47264] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:54 +0000] [47264] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:55 +0000] [47264] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:55 +0000] [47264] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:56 +0000] [47264] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:19:58 +0000] [47284] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:19:58 +0000] [47284] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:58 +0000] [47284] [ERROR] Retrying in 1 second.
+[2023-11-01 20:19:59 +0000] [47284] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:19:59 +0000] [47284] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:00 +0000] [47284] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:00 +0000] [47284] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:02 +0000] [47284] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:02 +0000] [47284] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:03 +0000] [47284] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:03 +0000] [47284] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:04 +0000] [47284] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:20:05 +0000] [47335] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:20:05 +0000] [47335] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:05 +0000] [47335] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:06 +0000] [47335] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:06 +0000] [47335] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:07 +0000] [47335] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:07 +0000] [47335] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:08 +0000] [47335] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:08 +0000] [47335] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:09 +0000] [47335] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:09 +0000] [47335] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:10 +0000] [47335] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:20:13 +0000] [47428] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:20:13 +0000] [47428] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:13 +0000] [47428] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:14 +0000] [47428] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:14 +0000] [47428] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:16 +0000] [47428] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:16 +0000] [47428] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:17 +0000] [47428] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:17 +0000] [47428] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:18 +0000] [47428] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:18 +0000] [47428] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:19 +0000] [47428] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:20:21 +0000] [47472] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:20:21 +0000] [47472] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:21 +0000] [47472] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:22 +0000] [47472] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:22 +0000] [47472] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:23 +0000] [47472] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:23 +0000] [47472] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:24 +0000] [47472] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:24 +0000] [47472] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:25 +0000] [47472] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:25 +0000] [47472] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:26 +0000] [47472] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:20:29 +0000] [47517] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:20:29 +0000] [47517] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:29 +0000] [47517] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:30 +0000] [47517] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:30 +0000] [47517] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:31 +0000] [47517] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:31 +0000] [47517] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:32 +0000] [47517] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:32 +0000] [47517] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:33 +0000] [47517] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:33 +0000] [47517] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:34 +0000] [47517] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:20:37 +0000] [47727] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:20:37 +0000] [47727] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:37 +0000] [47727] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:38 +0000] [47727] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:38 +0000] [47727] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:39 +0000] [47727] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:39 +0000] [47727] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:40 +0000] [47727] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:40 +0000] [47727] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:41 +0000] [47727] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:41 +0000] [47727] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:42 +0000] [47727] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:20:43 +0000] [47790] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:20:43 +0000] [47790] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:43 +0000] [47790] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:44 +0000] [47790] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:44 +0000] [47790] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:45 +0000] [47790] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:45 +0000] [47790] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:46 +0000] [47790] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:46 +0000] [47790] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:47 +0000] [47790] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:47 +0000] [47790] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:48 +0000] [47790] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:20:50 +0000] [47832] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:20:50 +0000] [47832] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:50 +0000] [47832] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:51 +0000] [47832] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:51 +0000] [47832] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:52 +0000] [47832] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:52 +0000] [47832] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:53 +0000] [47832] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:53 +0000] [47832] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:54 +0000] [47832] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:54 +0000] [47832] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:55 +0000] [47832] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:20:57 +0000] [47854] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:20:57 +0000] [47854] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:57 +0000] [47854] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:58 +0000] [47854] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:58 +0000] [47854] [ERROR] Retrying in 1 second.
+[2023-11-01 20:20:59 +0000] [47854] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:20:59 +0000] [47854] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:00 +0000] [47854] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:00 +0000] [47854] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:01 +0000] [47854] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:01 +0000] [47854] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:02 +0000] [47854] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:21:04 +0000] [47883] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:21:04 +0000] [47883] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:04 +0000] [47883] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:05 +0000] [47883] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:05 +0000] [47883] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:06 +0000] [47883] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:06 +0000] [47883] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:07 +0000] [47883] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:07 +0000] [47883] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:08 +0000] [47883] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:08 +0000] [47883] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:09 +0000] [47883] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:21:10 +0000] [47905] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:21:10 +0000] [47905] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:10 +0000] [47905] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:11 +0000] [47905] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:11 +0000] [47905] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:12 +0000] [47905] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:12 +0000] [47905] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:13 +0000] [47905] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:13 +0000] [47905] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:14 +0000] [47905] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:14 +0000] [47905] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:15 +0000] [47905] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:21:17 +0000] [48022] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:21:17 +0000] [48022] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:17 +0000] [48022] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:18 +0000] [48022] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:18 +0000] [48022] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:19 +0000] [48022] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:19 +0000] [48022] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:20 +0000] [48022] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:20 +0000] [48022] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:21 +0000] [48022] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:21 +0000] [48022] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:22 +0000] [48022] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:21:23 +0000] [48037] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:21:23 +0000] [48037] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:23 +0000] [48037] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:24 +0000] [48037] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:24 +0000] [48037] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:25 +0000] [48037] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:25 +0000] [48037] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:26 +0000] [48037] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:26 +0000] [48037] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:27 +0000] [48037] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:27 +0000] [48037] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:28 +0000] [48037] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:21:29 +0000] [48053] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:21:29 +0000] [48053] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:29 +0000] [48053] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:30 +0000] [48053] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:30 +0000] [48053] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:31 +0000] [48053] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:31 +0000] [48053] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:32 +0000] [48053] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:32 +0000] [48053] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:33 +0000] [48053] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:33 +0000] [48053] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:34 +0000] [48053] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:21:35 +0000] [48083] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:21:35 +0000] [48083] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:35 +0000] [48083] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:36 +0000] [48083] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:36 +0000] [48083] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:37 +0000] [48083] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:37 +0000] [48083] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:38 +0000] [48083] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:38 +0000] [48083] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:39 +0000] [48083] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:39 +0000] [48083] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:40 +0000] [48083] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:21:41 +0000] [48105] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:21:41 +0000] [48105] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:41 +0000] [48105] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:42 +0000] [48105] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:42 +0000] [48105] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:43 +0000] [48105] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:43 +0000] [48105] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:44 +0000] [48105] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:44 +0000] [48105] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:45 +0000] [48105] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:45 +0000] [48105] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:46 +0000] [48105] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:21:47 +0000] [48120] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:21:47 +0000] [48120] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:47 +0000] [48120] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:48 +0000] [48120] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:48 +0000] [48120] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:49 +0000] [48120] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:49 +0000] [48120] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:50 +0000] [48120] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:50 +0000] [48120] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:51 +0000] [48120] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:51 +0000] [48120] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:52 +0000] [48120] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:21:54 +0000] [48135] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:21:54 +0000] [48135] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:54 +0000] [48135] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:55 +0000] [48135] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:55 +0000] [48135] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:56 +0000] [48135] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:56 +0000] [48135] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:57 +0000] [48135] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:57 +0000] [48135] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:58 +0000] [48135] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:21:58 +0000] [48135] [ERROR] Retrying in 1 second.
+[2023-11-01 20:21:59 +0000] [48135] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:22:01 +0000] [48136] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:22:01 +0000] [48136] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:01 +0000] [48136] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:02 +0000] [48136] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:02 +0000] [48136] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:03 +0000] [48136] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:03 +0000] [48136] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:04 +0000] [48136] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:04 +0000] [48136] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:05 +0000] [48136] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:05 +0000] [48136] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:06 +0000] [48136] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:22:07 +0000] [48139] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:22:07 +0000] [48139] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:07 +0000] [48139] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:08 +0000] [48139] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:08 +0000] [48139] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:09 +0000] [48139] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:09 +0000] [48139] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:10 +0000] [48139] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:10 +0000] [48139] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:11 +0000] [48139] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:11 +0000] [48139] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:12 +0000] [48139] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:22:14 +0000] [48140] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:22:14 +0000] [48140] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:14 +0000] [48140] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:15 +0000] [48140] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:15 +0000] [48140] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:16 +0000] [48140] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:16 +0000] [48140] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:17 +0000] [48140] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:17 +0000] [48140] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:18 +0000] [48140] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:18 +0000] [48140] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:19 +0000] [48140] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:22:21 +0000] [48141] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:22:21 +0000] [48141] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:21 +0000] [48141] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:22 +0000] [48141] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:22 +0000] [48141] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:23 +0000] [48141] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:23 +0000] [48141] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:24 +0000] [48141] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:24 +0000] [48141] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:25 +0000] [48141] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:25 +0000] [48141] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:26 +0000] [48141] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:22:28 +0000] [48142] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:22:28 +0000] [48142] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:28 +0000] [48142] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:29 +0000] [48142] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:29 +0000] [48142] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:30 +0000] [48142] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:30 +0000] [48142] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:31 +0000] [48142] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:31 +0000] [48142] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:32 +0000] [48142] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:32 +0000] [48142] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:33 +0000] [48142] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:22:35 +0000] [48143] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:22:35 +0000] [48143] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:35 +0000] [48143] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:36 +0000] [48143] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:36 +0000] [48143] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:37 +0000] [48143] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:37 +0000] [48143] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:38 +0000] [48143] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:38 +0000] [48143] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:39 +0000] [48143] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:39 +0000] [48143] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:40 +0000] [48143] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:22:41 +0000] [48145] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:22:41 +0000] [48145] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:41 +0000] [48145] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:42 +0000] [48145] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:42 +0000] [48145] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:43 +0000] [48145] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:43 +0000] [48145] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:44 +0000] [48145] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:44 +0000] [48145] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:45 +0000] [48145] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:45 +0000] [48145] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:46 +0000] [48145] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:22:48 +0000] [48163] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:22:48 +0000] [48163] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:48 +0000] [48163] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:49 +0000] [48163] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:49 +0000] [48163] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:50 +0000] [48163] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:50 +0000] [48163] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:51 +0000] [48163] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:51 +0000] [48163] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:52 +0000] [48163] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:52 +0000] [48163] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:53 +0000] [48163] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:22:56 +0000] [48229] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:22:56 +0000] [48229] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:56 +0000] [48229] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:57 +0000] [48229] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:57 +0000] [48229] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:58 +0000] [48229] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:58 +0000] [48229] [ERROR] Retrying in 1 second.
+[2023-11-01 20:22:59 +0000] [48229] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:22:59 +0000] [48229] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:00 +0000] [48229] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:00 +0000] [48229] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:01 +0000] [48229] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:23:03 +0000] [48248] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:23:03 +0000] [48248] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:03 +0000] [48248] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:04 +0000] [48248] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:04 +0000] [48248] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:05 +0000] [48248] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:05 +0000] [48248] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:06 +0000] [48248] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:06 +0000] [48248] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:07 +0000] [48248] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:07 +0000] [48248] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:08 +0000] [48248] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:23:10 +0000] [48282] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:23:10 +0000] [48282] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:10 +0000] [48282] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:11 +0000] [48282] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:11 +0000] [48282] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:12 +0000] [48282] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:12 +0000] [48282] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:13 +0000] [48282] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:13 +0000] [48282] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:14 +0000] [48282] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:14 +0000] [48282] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:15 +0000] [48282] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:23:18 +0000] [48283] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:23:18 +0000] [48283] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:18 +0000] [48283] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:19 +0000] [48283] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:19 +0000] [48283] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:20 +0000] [48283] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:20 +0000] [48283] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:21 +0000] [48283] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:21 +0000] [48283] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:22 +0000] [48283] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:22 +0000] [48283] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:24 +0000] [48283] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:23:27 +0000] [48463] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:23:27 +0000] [48463] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:27 +0000] [48463] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:28 +0000] [48463] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:28 +0000] [48463] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:29 +0000] [48463] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:29 +0000] [48463] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:30 +0000] [48463] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:30 +0000] [48463] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:31 +0000] [48463] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:31 +0000] [48463] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:32 +0000] [48463] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:23:35 +0000] [48650] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:23:35 +0000] [48650] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:35 +0000] [48650] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:36 +0000] [48650] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:36 +0000] [48650] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:37 +0000] [48650] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:37 +0000] [48650] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:38 +0000] [48650] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:38 +0000] [48650] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:39 +0000] [48650] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:39 +0000] [48650] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:40 +0000] [48650] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:23:41 +0000] [48761] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:23:41 +0000] [48761] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:41 +0000] [48761] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:42 +0000] [48761] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:42 +0000] [48761] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:43 +0000] [48761] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:43 +0000] [48761] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:44 +0000] [48761] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:44 +0000] [48761] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:45 +0000] [48761] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:45 +0000] [48761] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:46 +0000] [48761] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:23:48 +0000] [48843] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:23:48 +0000] [48843] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:48 +0000] [48843] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:49 +0000] [48843] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:49 +0000] [48843] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:50 +0000] [48843] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:50 +0000] [48843] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:51 +0000] [48843] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:51 +0000] [48843] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:52 +0000] [48843] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:52 +0000] [48843] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:53 +0000] [48843] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:23:54 +0000] [48851] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:23:54 +0000] [48851] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:54 +0000] [48851] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:55 +0000] [48851] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:55 +0000] [48851] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:56 +0000] [48851] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:56 +0000] [48851] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:57 +0000] [48851] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:57 +0000] [48851] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:58 +0000] [48851] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:23:58 +0000] [48851] [ERROR] Retrying in 1 second.
+[2023-11-01 20:23:59 +0000] [48851] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:24:00 +0000] [48889] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:24:00 +0000] [48889] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:24:00 +0000] [48889] [ERROR] Retrying in 1 second.
+[2023-11-01 20:24:01 +0000] [48889] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:24:01 +0000] [48889] [ERROR] Retrying in 1 second.
+[2023-11-01 20:24:02 +0000] [48889] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:24:02 +0000] [48889] [ERROR] Retrying in 1 second.
+[2023-11-01 20:24:03 +0000] [48889] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:24:03 +0000] [48889] [ERROR] Retrying in 1 second.
+[2023-11-01 20:24:04 +0000] [48889] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:24:04 +0000] [48889] [ERROR] Retrying in 1 second.
+[2023-11-01 20:24:05 +0000] [48889] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-01 20:24:07 +0000] [48917] [INFO] Starting gunicorn 20.1.0
+[2023-11-01 20:24:07 +0000] [48917] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-01 20:24:07 +0000] [48917] [ERROR] Retrying in 1 second.
+[2023-11-01 20:24:08 +0000] [48917] [INFO] Listening at: http://127.0.0.1:8000 (48917)
+[2023-11-01 20:24:08 +0000] [48917] [INFO] Using worker: sync
+[2023-11-01 20:24:08 +0000] [48919] [INFO] Booting worker with pid: 48919
+[2023-11-01 20:24:08 +0000] [48920] [INFO] Booting worker with pid: 48920
+[2023-11-01 20:24:08 +0000] [48921] [INFO] Booting worker with pid: 48921
+[2023-11-01 20:24:08 +0000] [48922] [INFO] Booting worker with pid: 48922
+[2023-11-01 20:24:08 +0000] [48923] [INFO] Booting worker with pid: 48923
+[2023-11-01 20:24:08 +0000] [48924] [INFO] Booting worker with pid: 48924
+[2023-11-01 20:24:08 +0000] [48925] [INFO] Booting worker with pid: 48925
+[2023-11-01 20:24:35 +0000] [48917] [INFO] Handling signal: term
+[2023-11-01 20:24:35 +0000] [48920] [INFO] Worker exiting (pid: 48920)
+[2023-11-01 20:24:35 +0000] [48919] [INFO] Worker exiting (pid: 48919)
+[2023-11-01 20:24:35 +0000] [48922] [INFO] Worker exiting (pid: 48922)
+[2023-11-01 20:24:35 +0000] [48921] [INFO] Worker exiting (pid: 48921)
+[2023-11-01 20:24:35 +0000] [48924] [INFO] Worker exiting (pid: 48924)
+[2023-11-01 20:24:35 +0000] [48923] [INFO] Worker exiting (pid: 48923)
+[2023-11-01 20:24:35 +0000] [48925] [INFO] Worker exiting (pid: 48925)
+[2023-11-01 20:24:36 +0000] [48917] [INFO] Shutting down: Master
+[2023-11-03 13:29:46 +0000] [840] [INFO] Starting gunicorn 20.1.0
+[2023-11-03 13:29:46 +0000] [840] [INFO] Listening at: http://127.0.0.1:8000 (840)
+[2023-11-03 13:29:46 +0000] [840] [INFO] Using worker: sync
+[2023-11-03 13:29:46 +0000] [1060] [INFO] Booting worker with pid: 1060
+[2023-11-03 13:29:46 +0000] [1062] [INFO] Booting worker with pid: 1062
+[2023-11-03 13:29:46 +0000] [1065] [INFO] Booting worker with pid: 1065
+[2023-11-03 13:29:46 +0000] [1069] [INFO] Booting worker with pid: 1069
+[2023-11-03 13:29:47 +0000] [1074] [INFO] Booting worker with pid: 1074
+[2023-11-03 13:29:47 +0000] [1082] [INFO] Booting worker with pid: 1082
+[2023-11-03 13:29:47 +0000] [1085] [INFO] Booting worker with pid: 1085
+[2023-11-03 13:35:29 +0000] [840] [INFO] Handling signal: term
+[2023-11-03 13:35:29 +0000] [1060] [INFO] Worker exiting (pid: 1060)
+[2023-11-03 13:35:29 +0000] [1062] [INFO] Worker exiting (pid: 1062)
+[2023-11-03 13:35:29 +0000] [1065] [INFO] Worker exiting (pid: 1065)
+[2023-11-03 13:35:29 +0000] [1074] [INFO] Worker exiting (pid: 1074)
+[2023-11-03 13:35:29 +0000] [1082] [INFO] Worker exiting (pid: 1082)
+[2023-11-03 13:35:29 +0000] [1069] [INFO] Worker exiting (pid: 1069)
+[2023-11-03 13:35:29 +0000] [1085] [INFO] Worker exiting (pid: 1085)
+[2023-11-03 13:35:30 +0000] [840] [INFO] Shutting down: Master
+[2023-11-03 17:27:46 +0000] [10395] [INFO] Starting gunicorn 20.1.0
+[2023-11-03 17:27:46 +0000] [10395] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-03 17:27:46 +0000] [10395] [ERROR] Retrying in 1 second.
+[2023-11-03 17:27:47 +0000] [10395] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-03 17:27:47 +0000] [10395] [ERROR] Retrying in 1 second.
+[2023-11-03 17:27:48 +0000] [10395] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-03 17:27:48 +0000] [10395] [ERROR] Retrying in 1 second.
+[2023-11-03 17:27:49 +0000] [10395] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-03 17:27:49 +0000] [10395] [ERROR] Retrying in 1 second.
+[2023-11-03 17:27:50 +0000] [10395] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-03 17:27:50 +0000] [10395] [ERROR] Retrying in 1 second.
+[2023-11-03 17:27:51 +0000] [10395] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-11-03 17:27:54 +0000] [10459] [INFO] Starting gunicorn 20.1.0
+[2023-11-03 17:27:54 +0000] [10459] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-03 17:27:54 +0000] [10459] [ERROR] Retrying in 1 second.
+[2023-11-03 17:27:55 +0000] [10459] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-03 17:27:55 +0000] [10459] [ERROR] Retrying in 1 second.
+[2023-11-03 17:27:56 +0000] [10459] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-03 17:27:56 +0000] [10459] [ERROR] Retrying in 1 second.
+[2023-11-03 17:27:57 +0000] [10459] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-03 17:27:57 +0000] [10459] [ERROR] Retrying in 1 second.
+[2023-11-03 17:27:58 +0000] [10459] [INFO] Listening at: http://127.0.0.1:8000 (10459)
+[2023-11-03 17:27:58 +0000] [10459] [INFO] Using worker: sync
+[2023-11-03 17:27:58 +0000] [10474] [INFO] Booting worker with pid: 10474
+[2023-11-03 17:27:58 +0000] [10475] [INFO] Booting worker with pid: 10475
+[2023-11-03 17:27:58 +0000] [10476] [INFO] Booting worker with pid: 10476
+[2023-11-03 17:27:58 +0000] [10482] [INFO] Booting worker with pid: 10482
+[2023-11-03 17:27:58 +0000] [10488] [INFO] Booting worker with pid: 10488
+[2023-11-03 17:27:58 +0000] [10489] [INFO] Booting worker with pid: 10489
+[2023-11-03 17:27:58 +0000] [10490] [INFO] Booting worker with pid: 10490
+[2023-11-03 17:33:33 +0000] [10459] [INFO] Handling signal: term
+[2023-11-03 17:33:33 +0000] [10476] [INFO] Worker exiting (pid: 10476)
+[2023-11-03 17:33:33 +0000] [10474] [INFO] Worker exiting (pid: 10474)
+[2023-11-03 17:33:33 +0000] [10475] [INFO] Worker exiting (pid: 10475)
+[2023-11-03 17:33:33 +0000] [10488] [INFO] Worker exiting (pid: 10488)
+[2023-11-03 17:33:33 +0000] [10482] [INFO] Worker exiting (pid: 10482)
+[2023-11-03 17:33:33 +0000] [10490] [INFO] Worker exiting (pid: 10490)
+[2023-11-03 17:33:33 +0000] [10489] [INFO] Worker exiting (pid: 10489)
+[2023-11-03 17:33:34 +0000] [10459] [INFO] Shutting down: Master
+[2023-11-03 17:33:36 +0000] [11260] [INFO] Starting gunicorn 20.1.0
+[2023-11-03 17:33:36 +0000] [11260] [INFO] Listening at: http://127.0.0.1:8000 (11260)
+[2023-11-03 17:33:36 +0000] [11260] [INFO] Using worker: sync
+[2023-11-03 17:33:36 +0000] [11264] [INFO] Booting worker with pid: 11264
+[2023-11-03 17:33:36 +0000] [11265] [INFO] Booting worker with pid: 11265
+[2023-11-03 17:33:36 +0000] [11266] [INFO] Booting worker with pid: 11266
+[2023-11-03 17:33:36 +0000] [11267] [INFO] Booting worker with pid: 11267
+[2023-11-03 17:33:36 +0000] [11268] [INFO] Booting worker with pid: 11268
+[2023-11-03 17:33:36 +0000] [11269] [INFO] Booting worker with pid: 11269
+[2023-11-03 17:33:36 +0000] [11270] [INFO] Booting worker with pid: 11270
+[2023-11-03 17:38:17 +0000] [11260] [INFO] Handling signal: term
+[2023-11-03 17:38:17 +0000] [11264] [INFO] Worker exiting (pid: 11264)
+[2023-11-03 17:38:17 +0000] [11267] [INFO] Worker exiting (pid: 11267)
+[2023-11-03 17:38:17 +0000] [11265] [INFO] Worker exiting (pid: 11265)
+[2023-11-03 17:38:17 +0000] [11266] [INFO] Worker exiting (pid: 11266)
+[2023-11-03 17:38:17 +0000] [11269] [INFO] Worker exiting (pid: 11269)
+[2023-11-03 17:38:17 +0000] [11268] [INFO] Worker exiting (pid: 11268)
+[2023-11-03 17:38:17 +0000] [11270] [INFO] Worker exiting (pid: 11270)
+[2023-11-03 17:38:18 +0000] [11260] [INFO] Shutting down: Master
+[2023-11-05 14:42:11 +0000] [876] [INFO] Starting gunicorn 20.1.0
+[2023-11-05 14:42:11 +0000] [876] [INFO] Listening at: http://127.0.0.1:8000 (876)
+[2023-11-05 14:42:11 +0000] [876] [INFO] Using worker: sync
+[2023-11-05 14:42:11 +0000] [1093] [INFO] Booting worker with pid: 1093
+[2023-11-05 14:42:11 +0000] [1095] [INFO] Booting worker with pid: 1095
+[2023-11-05 14:42:12 +0000] [1096] [INFO] Booting worker with pid: 1096
+[2023-11-05 14:42:12 +0000] [1097] [INFO] Booting worker with pid: 1097
+[2023-11-05 14:42:12 +0000] [1099] [INFO] Booting worker with pid: 1099
+[2023-11-05 14:42:12 +0000] [1100] [INFO] Booting worker with pid: 1100
+[2023-11-05 14:42:12 +0000] [1101] [INFO] Booting worker with pid: 1101
+[2023-11-05 15:02:53 +0000] [876] [INFO] Handling signal: term
+[2023-11-05 15:02:53 +0000] [1093] [INFO] Worker exiting (pid: 1093)
+[2023-11-05 15:02:53 +0000] [1101] [INFO] Worker exiting (pid: 1101)
+[2023-11-05 15:02:53 +0000] [1095] [INFO] Worker exiting (pid: 1095)
+[2023-11-05 15:02:53 +0000] [1096] [INFO] Worker exiting (pid: 1096)
+[2023-11-05 15:02:53 +0000] [1097] [INFO] Worker exiting (pid: 1097)
+[2023-11-05 15:02:53 +0000] [1100] [INFO] Worker exiting (pid: 1100)
+[2023-11-05 15:02:53 +0000] [1099] [INFO] Worker exiting (pid: 1099)
+[2023-11-05 15:02:55 +0000] [876] [INFO] Shutting down: Master
+[2023-11-05 15:14:59 +0000] [10461] [INFO] Starting gunicorn 20.1.0
+[2023-11-05 15:14:59 +0000] [10461] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-05 15:14:59 +0000] [10461] [ERROR] Retrying in 1 second.
+[2023-11-05 15:15:00 +0000] [10461] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-11-05 15:15:00 +0000] [10461] [ERROR] Retrying in 1 second.
+[2023-11-05 15:15:01 +0000] [10461] [INFO] Listening at: http://127.0.0.1:8000 (10461)
+[2023-11-05 15:15:01 +0000] [10461] [INFO] Using worker: sync
+[2023-11-05 15:15:01 +0000] [10504] [INFO] Booting worker with pid: 10504
+[2023-11-05 15:15:01 +0000] [10505] [INFO] Booting worker with pid: 10505
+[2023-11-05 15:15:01 +0000] [10520] [INFO] Booting worker with pid: 10520
+[2023-11-05 15:15:02 +0000] [10524] [INFO] Booting worker with pid: 10524
+[2023-11-05 15:15:02 +0000] [10526] [INFO] Booting worker with pid: 10526
+[2023-11-05 15:15:02 +0000] [10527] [INFO] Booting worker with pid: 10527
+[2023-11-05 15:15:02 +0000] [10534] [INFO] Booting worker with pid: 10534
+[2023-11-05 15:26:21 +0000] [10461] [INFO] Handling signal: term
+[2023-11-05 15:26:21 +0000] [10505] [INFO] Worker exiting (pid: 10505)
+[2023-11-05 15:26:21 +0000] [10524] [INFO] Worker exiting (pid: 10524)
+[2023-11-05 15:26:21 +0000] [10527] [INFO] Worker exiting (pid: 10527)
+[2023-11-05 15:26:21 +0000] [10526] [INFO] Worker exiting (pid: 10526)
+[2023-11-05 15:26:21 +0000] [10520] [INFO] Worker exiting (pid: 10520)
+[2023-11-05 15:26:21 +0000] [10504] [INFO] Worker exiting (pid: 10504)
+[2023-11-05 15:26:21 +0000] [10534] [INFO] Worker exiting (pid: 10534)
+[2023-11-05 15:26:22 +0000] [10461] [INFO] Shutting down: Master
